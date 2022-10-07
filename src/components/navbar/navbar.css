@@ -1,0 +1,44 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+    padding: 0.65rem 1rem;
+    border-bottom: 6px solid var(--dark-green);
+    background-color: var(--peach-bg);
+    box-shadow: 0 0 5px var(--dark-green);
+}
+
+.nav-logo {
+    width: 110px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: var(--dark-green);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+
+    font-size: 2rem;
+    padding: 0.1rem 1rem;
+    border-radius: 25px;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item:hover {
+    background-color: var(--white-green);
+}

@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    height: 100%;
+    padding-top: 6rem;
+
+    background-size: cover;
+    background-position: bottom;
+}
+
+.home-left, .home-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-left {
+
+}
+
+.home-right {
+
+}

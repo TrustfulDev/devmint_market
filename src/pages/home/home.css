@@ -5,6 +5,7 @@
 
     background-size: cover;
     background-position: bottom;
+    overflow: hidden;
 }
 
 .home-left, .home-right {
@@ -13,12 +14,198 @@
     justify-content: center;
     align-items: center;
     position: relative;
+
+    margin-bottom: 2rem;
 }
 
 .home-left {
-
+    flex-direction: column;
 }
 
-.home-right {
+.home-sign {
+    position: absolute;
+    top: 0;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: clamp(420.6px, 100%, 694.1px);
+    height: clamp(288.6px, 100%, 476.3px);
+    padding: 5rem 2rem;
+
+    color: var(--dark-green);
+    text-align: center;
+}
+
+.home-sign h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.home-sign p {
+    font-size: 2rem;
+}
+
+.home-bunny {
+    position: absolute;
+    bottom: 0;
+    margin-left: 2rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 289.6px;
+    height: 364.8px;
+}
+
+.home-market {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: max(520px, 781px);
+    height: max(414px, 783px);
+}
+
+.home-crates {
+    display: grid;
+    row-gap: 0.25rem;
+    column-gap: 3rem;
+    grid-template-rows: repeat(2, max(136px, 160px));
+    grid-template-columns: repeat(2, max(209px, 245px));
+
+    position: absolute;
+    bottom: 1.5rem;
+    left: 7rem;
+}
+
+.home-crate {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+
+    cursor: pointer;
+    color: var(--dark-green);
+}
+
+.home-crate-header {
+    margin: 0;
+}
+
+.home-crate-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* For 2k resolutions and up */
+@media screen and (min-height: 1100px) {
+    .home-sign {
+        position: relative;
+    }
+
+    .home-bunny {
+        position: relative;
+    }
+
+    .home-market {
+        width: max(781px, 976.25px);
+        height: max(783px, 978.75px);
+    }
+
+    .home-crates {
+        column-gap: 5rem;
+        grid-template-rows: repeat(2, max(160px, 200px));
+        grid-template-columns: repeat(2, max(245px, 306.25px));
+        bottom: 2rem;
+        left: 7.5rem;
+    }
+}
+
+/* For smaller screens 1500px and below */
+@media screen and (max-width: 1500px) {
+    .home-container {
+        flex-direction: column;
+        gap: 3rem;
+        padding-top: 4rem;
+        overflow-y: scroll;
+    }
+
+    .home-sign {
+        position: relative;
+        padding: 3rem 8rem 0 8rem;
+        width: clamp(420.6px, 100%, 727.15px);
+        height: clamp(288.6px, 100%, 498.98px);
+    }
+
+    .home-sign h1 {
+        font-size: 2.5rem;
+    }
+    
+    .home-sign p {
+        font-size: 1.5rem;
+    }
+
+    .home-bunny {
+        position: relative;
+    }
+
+    .home-crates {
+        left: 6.6rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-market {
+        width: 430px;
+        height: 431.1px;
+    }
+
+    .home-crates {
+        top: 13.5rem;
+        bottom: auto;
+        left: 3.5rem;
+        grid-template-rows: repeat(2, 79px);
+        grid-template-columns: repeat(2, 126.33px);
+    }
+
+    .home-crate {
+        padding-top: 0.35rem;
+        padding-right: 0.25rem;
+    }
+
+    .home-crate-header {
+        font-size: 0.75rem;
+    }
+    
+    .home-crate-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .home-left, .home-right {
+        margin: 0 0.5rem;
+    }
+
+    .home-sign {
+        width: 420.6px;
+        height: 288.6px;
+        padding: 3rem 1.5rem 0 1.5rem;
+    }
+
+    .home-sign h1 {
+        font-size: 2rem;
+    }
+    
+    .home-sign p {
+        font-size: 1rem;
+    }
 }

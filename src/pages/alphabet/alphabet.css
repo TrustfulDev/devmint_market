@@ -1,0 +1,246 @@
+.main-container {
+    display: flex;
+    background-image: url(alphabet_garden_BG_shadow_v1.png);
+    background-size: 111%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: left;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#concept {
+    color: var(--dark-green);
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: 4rem;
+    position: absolute;
+    top: 15rem;
+    right: 14rem
+}
+
+.left-main-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    height: 100%;
+    justify-content: flex-end;
+    align-content: center;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.left-main-box img {
+    width: 50%;
+    height: 38%;
+}
+
+#speech_bubble {
+    width: 80%;
+}
+
+.right-main-box {
+    color: var(--dark-green);
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+#A0 {
+    top: 14.1rem;
+    left: 9.3rem;
+}
+
+#A1 {
+    top: 14.1rem;
+    left: 17rem;
+}
+
+#A2 {
+    top: 14.1rem;
+    left: 24.5rem;
+}
+
+#A3 {
+    top: 14.1rem;
+    left: 32.2rem;
+}
+
+#A4 {
+    top: 14.1rem;
+    left: 39.7rem;
+}
+
+#A5 {
+    top: 14.1rem;
+    left: 47.3rem;
+}
+
+#A6 {
+    top: 19.8rem;
+    left: 9.3rem;
+}
+
+#A7 {
+    top: 19.8rem;
+    left: 17.1rem;
+}
+
+#A8 {
+    top: 19.8rem;
+    left: 24.7rem;
+}
+
+#A9 {
+    top: 19.8rem;
+    left: 32.2rem;
+}
+
+#A10 {
+    top: 19.8rem;
+    left: 39.8rem;
+}
+
+#A11 {
+    top: 19.8rem;
+    left: 47.3rem;
+}
+
+#A12 {
+    top: 25.5rem;
+    left: 9.4rem;
+}
+
+#A13 {
+    top: 25.5rem;
+    left: 17.1rem;
+}
+
+#A14 {
+    top: 25.5rem;
+    left: 24.7rem;
+}
+
+#A15 {
+    top: 25.5rem;
+    left: 32.3rem;
+}
+
+#A16 {
+    top: 25.5rem;
+    left: 39.8rem;
+}
+
+#A17 {
+    top: 25.5rem;
+    left: 47.2rem;
+}
+
+#A18 {
+    top: 31.2rem;
+    left: 9.4rem;
+}
+
+#A19 {
+    top: 31.2rem;
+    left: 17.1rem;
+}
+
+#A20 {
+    top: 31.2rem;
+    left: 24.7rem;
+}
+
+#A21 {
+    top: 31.2rem;
+    left: 32.1rem;
+}
+
+#A22 {
+    top: 31.2rem;
+    left: 39.7rem;
+}
+
+#A23 {
+    top: 31.2rem;
+    left: 47.3rem;
+}
+
+#A24 {
+    top: 36.9rem;
+    left: 9.4rem;
+}
+
+#A25 {
+    top: 36.9rem;
+    left: 17rem;
+}
+
+#A26 {
+    top: 36.9rem;
+    left: 24.6rem;
+}
+
+#A27 {
+    top: 36.9rem;
+    left: 32.1rem;
+}
+
+#A28 {
+    top: 36.9rem;
+    left: 39.7rem;
+}
+
+.letter {
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    cursor: grab;
+    height: 3.3rem;
+    width: 3.3rem;
+    font-size: 3rem;
+    transition: all 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.letter:hover {
+    opacity: 1;
+    transform: translateY(-0.1rem);
+}
+
+.bg_container {
+    position: relative;
+    width: 79%;
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 13rem;
+    margin-left: 7.2rem;
+    transition: all 0.1s;
+    transition-timing-function: ease-in;
+    /* flex-shrink: 2; */
+}
+
+.right-main-box img {
+    height: 4.6rem;
+    width: 4.6rem;
+    margin: 0.55rem 1.41rem;
+    opacity: 1;
+}
+
+/* This is for the last bg box */
+.bg_container span {
+    height: 4.6rem;
+    width: 4.6rem;
+    margin: 0.55rem 1.41rem;
+}
+
+.bg_img:hover {
+    transform: translateY(-0.2rem);
+}

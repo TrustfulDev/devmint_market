@@ -3,7 +3,7 @@
 
   --dark-green: #406b65;
   --light-green: #78c1a3;
-  --lighter-green: #9fd7bb ;
+  --lighter-green: #9fd7bb;
   --lightest-green: #c0e8c3;
   --white-green: #c6dfc9;
   --light-cyan: #cbebef;
@@ -14,7 +14,10 @@
   box-sizing: border-box;
 }
 
-html, body, #root, #app {
+html,
+body,
+#root,
+#app {
   margin: 0;
   padding: 0;
   height: 100%;

@@ -18,7 +18,7 @@ const Menu = () => (
             <TiHomeOutline />
             Home
         </Link>
-        <Link to='/' className='nav-item'>
+        <Link to='/alphabet' className='nav-item'>
             <TiSortAlphabeticallyOutline />
             Alphabet
         </Link>
@@ -64,16 +64,16 @@ const Navbar = () => {
 
             {/* Mobile Navbar - 1100px or smaller */}
             <motion.nav className='nav-menu'>
-                { toggleMenu 
+                {toggleMenu
                     ? <div onClick={() => setToggleMenu(false)}>
-                        <TiArrowForward className='nav-menu-icon'/>
+                        <TiArrowForward className='nav-menu-icon' />
                     </div>
                     : <div onClick={() => setToggleMenu(true)}>
                         <TiArrowBack className='nav-menu-icon' />
                     </div>
                 }
 
-                <div className={ toggleMenu ? 'nav-menu-items' : (isLoaded) ? 'nav-menu-items nav-menu-close' : 'nav-menu-items nav-menu-close hidden'}>
+                <div className={toggleMenu ? 'nav-menu-items' : (isLoaded) ? 'nav-menu-items nav-menu-close' : 'nav-menu-items nav-menu-close hidden'}>
                     <Menu />
                 </div>
             </motion.nav>

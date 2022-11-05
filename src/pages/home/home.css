@@ -120,16 +120,60 @@
     height: auto;
 }
 
-/* For 2k resolutions and up */
-/* @media screen and (min-height: 1100px) {
-    .home-sign {
-        position: relative;
+/* Windows Scaling Fix */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25) {
+    .home-left, .home-right {
+        transform: scale(0.8);
     }
 
-    .home-bunny {
-        position: relative;
+    /* Left side - Bunny and Sign - Now on top */
+    .home-sign {
+        max-width: 40rem !important;
+        padding: 0 1rem 3rem 1rem !important; 
     }
-} */
+
+    /* Right side - Market - Now on the bottom */
+    .home-crates {
+        top: 58% !important;
+    }
+
+    .home-crate:first-child, .home-crate:nth-child(3) {
+        padding: 0.6rem 2.5rem 0 2.5rem !important;
+    }
+    
+    .home-crate:nth-child(2), .home-crate:last-child {
+        padding: 0.6rem 2.5rem 0 2.5rem !important;
+    }
+}
+
+/* For 2k resolutions and up */
+@media screen and (min-height: 1100px) {
+    /* Left side - Bunny and Sign */
+    .home-sign {
+        padding: 0 6.8rem 6.5rem 6.8rem;
+    }
+    
+    .home-sign h1 {
+        font-size: 5rem;
+    }
+
+    .home-sign p {
+        font-size: 3rem;
+    }
+
+    /* Right side - Market */
+    .home-crate {
+        padding-top: 2.3rem;
+    }
+
+    .home-crate-header {
+        font-size: 1.5rem;
+    }
+    
+    .home-crate-icon {
+        width: 20%;
+    }
+}
 
 /* Width Adjustments for full page */
 @media screen and (max-width: 1647px) {
@@ -150,9 +194,6 @@
     }
 
     .home-crates {
-        /* row-gap: 0.5rem;
-        column-gap: 1rem; */
-    
         position: relative;
         top: 56%;
         left: 18.5%;

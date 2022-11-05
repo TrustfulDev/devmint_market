@@ -80,8 +80,9 @@ const Home = () => {
                 <motion.div className='home-bunny' 
                     initial={{ x: -500, y: 1000, scale: 0.8 }}
                     animate={ bunnyControls }
-                    style={{ backgroundImage: `url(${bunny})`}}
-                ></motion.div>
+                >
+                    <img src={bunny} alt='Bunny Mascot' />
+                </motion.div>
             </div>
 
             <motion.div className='home-right'

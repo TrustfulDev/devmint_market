@@ -1,7 +1,8 @@
 .home-container {
     display: flex;
     height: 100%;
-    padding-top: 6rem;
+    padding-top: 4.9rem;
+    padding-bottom: 0.5rem;
 
     background-size: cover;
     background-position: bottom;
@@ -14,8 +15,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
-    margin-bottom: 2rem;
+    margin: 0 0.5rem;
 }
 
 .home-left {
@@ -23,18 +23,16 @@
 }
 
 .home-sign {
-    position: absolute;
-    top: 0;
-
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: clamp(420.6px, 100%, 694.1px);
-    height: clamp(288.6px, 100%, 476.3px);
-    padding: 5rem 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 0 6.8rem 4rem 6.8rem;
 
     color: var(--dark-green);
     text-align: center;
@@ -50,35 +48,41 @@
 }
 
 .home-bunny {
-    position: absolute;
-    bottom: 0;
     margin-left: 2rem;
 
     background-size: contain;
     background-repeat: no-repeat;
 
-    width: 289.6px;
-    height: 364.8px;
+    width: 28%;
+    height: auto;
+}
+
+.home-bunny img {
+    width: 100%;
+    height: auto;
 }
 
 .home-market {
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-    width: max(520px, 781px);
-    height: max(414px, 783px);
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 .home-crates {
     display: grid;
-    row-gap: 0.25rem;
-    column-gap: 3rem;
-    grid-template-rows: repeat(2, max(136px, 160px));
-    grid-template-columns: repeat(2, max(209px, 245px));
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 4rem;
 
-    position: absolute;
-    bottom: 1.5rem;
-    left: 7rem;
+    position: relative;
+    top: 57%;
+    left: 20.5%;
+    width: 59%;
+    height: 40%;
 }
 
 .home-crate {
@@ -86,50 +90,130 @@
     background-repeat: no-repeat;
 
     display: flex;
+    flex: 1;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     padding-top: 1rem;
+    width: auto;
+    height: auto;
+    max-width: 14rem;
 
     cursor: pointer;
+    text-align: center;
     color: var(--dark-green);
 }
 
+.home-crate:first-child, .home-crate:nth-child(3) {
+    background-position: right;
+}
+
+.home-crate:nth-child(2), .home-crate:last-child {
+    background-position: left;
+}
+
 .home-crate-header {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .home-crate-icon {
-    width: 2rem;
-    height: 2rem;
+    width: 14%;
+    height: auto;
+}
+
+/* Windows Scaling Fix */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25) {
+    .home-left, .home-right {
+        transform: scale(0.8);
+    }
+
+    /* Left side - Bunny and Sign - Now on top */
+    .home-sign {
+        max-width: 40rem !important;
+        padding: 0 1rem 3rem 1rem !important; 
+    }
+
+    /* Right side - Market - Now on the bottom */
+    .home-crates {
+        top: 58% !important;
+    }
+
+    .home-crate:first-child, .home-crate:nth-child(3) {
+        padding: 0.6rem 2.5rem 0 2.5rem !important;
+    }
+    
+    .home-crate:nth-child(2), .home-crate:last-child {
+        padding: 0.6rem 2.5rem 0 2.5rem !important;
+    }
 }
 
 /* For 2k resolutions and up */
 @media screen and (min-height: 1100px) {
+    /* Left side - Bunny and Sign */
     .home-sign {
-        position: relative;
+        padding: 0 6.8rem 6.5rem 6.8rem;
+    }
+    
+    .home-sign h1 {
+        font-size: 5rem;
     }
 
-    .home-bunny {
-        position: relative;
+    .home-sign p {
+        font-size: 3rem;
     }
 
-    .home-market {
-        width: max(781px, 976.25px);
-        height: max(783px, 978.75px);
+    /* Right side - Market */
+    .home-crate {
+        padding-top: 2.3rem;
     }
 
-    .home-crates {
-        column-gap: 5rem;
-        grid-template-rows: repeat(2, max(160px, 200px));
-        grid-template-columns: repeat(2, max(245px, 306.25px));
-        bottom: 2rem;
-        left: 7.5rem;
+    .home-crate-header {
+        font-size: 1.5rem;
+    }
+    
+    .home-crate-icon {
+        width: 20%;
     }
 }
 
-/* For smaller screens 1500px and below */
-@media screen and (max-width: 1500px) {
+/* Width Adjustments for full page */
+@media screen and (max-width: 1647px) {
+    /* Left side - Bunny and Sign - Now on top */
+    .home-sign {
+        max-width: 35rem;
+        padding: 0 2rem 4rem 2rem; 
+    }
+
+    .home-bunny {
+        width: 38%;
+        height: auto;
+    }
+
+    /* Right side - Market - Now on the bottom */
+    .home-market {
+        max-width: 35rem;
+    }
+
+    .home-crates {
+        position: relative;
+        top: 56%;
+        left: 18.5%;
+        width: 63%;
+        height: 40%;
+        max-height: 13rem;
+    }
+
+    .home-crate-header {
+        margin: 0 auto;
+        word-wrap: break-word;
+        font-size: 1rem;
+    }
+    
+    .home-crate-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1210px) {
     .home-container {
         flex-direction: column;
         gap: 3rem;
@@ -137,75 +221,172 @@
         overflow-y: scroll;
     }
 
+    /* Left side - Bunny and Sign - Now on top */
+    .home-left {
+        min-height: 80vh;
+    }
+
     .home-sign {
-        position: relative;
-        padding: 3rem 8rem 0 8rem;
-        width: clamp(420.6px, 100%, 727.15px);
-        height: clamp(288.6px, 100%, 498.98px);
+        max-width: 29rem;
+        min-height: 16rem;
+        padding: 0 2rem 2.2rem 2rem; 
     }
 
     .home-sign h1 {
-        font-size: 2.5rem;
+        font-size: 1.88rem;
     }
     
     .home-sign p {
-        font-size: 1.5rem;
+        font-size: 1.23rem;
     }
 
     .home-bunny {
+        width: auto;
+        height: 100%;
+        max-width: 18rem;
         position: relative;
     }
 
-    .home-crates {
-        left: 6.6rem;
+    /* Right side - Market - Now on the bottom */
+    .home-right {
+        min-height: 47vh;
     }
-}
 
-@media screen and (max-width: 800px) {
     .home-market {
-        width: 430px;
-        height: 431.1px;
+        max-width: 24rem;
+        margin-bottom: 1rem;
     }
-
+    
     .home-crates {
-        top: 13.5rem;
-        bottom: auto;
-        left: 3.5rem;
-        grid-template-rows: repeat(2, 79px);
-        grid-template-columns: repeat(2, 126.33px);
+        row-gap: 0.5rem;
+        column-gap: 1rem;
+    
+        position: relative;
+        left: 20.5%;
+        width: 63%;
+        height: 40%;
+        max-width: 250px;
+        max-height: 169px;
     }
 
     .home-crate {
-        padding-top: 0.35rem;
-        padding-right: 0.25rem;
-    }
-
-    .home-crate-header {
-        font-size: 0.75rem;
-    }
-    
-    .home-crate-icon {
-        width: 1rem;
-        height: 1rem;
+        padding: 0.1rem 1rem 0 1rem;
     }
 }
 
-@media screen and (max-width: 730px) {
-    .home-left, .home-right {
-        margin: 0 0.5rem;
+@media screen and (max-width: 420px) {
+    .home-crates {
+        row-gap: 0.5rem;
+        column-gap: 1rem;
+    
+        position: relative;
+        top: 56%;
+        left: 18.5%;
+        width: 63%;
+        height: 40%;
+        max-width: 250px;
     }
+}
 
+/* Height Adjustments for Crate Text */
+@media screen and (max-height: 910px) {
     .home-sign {
-        width: 420.6px;
-        height: 288.6px;
-        padding: 3rem 1.5rem 0 1.5rem;
+        min-height: 17rem;
     }
-
+    
     .home-sign h1 {
         font-size: 2rem;
     }
     
     .home-sign p {
-        font-size: 1rem;
+        padding: 0 8rem;
+        font-size: 1.5rem;
     }
 }
+
+@media screen and (max-height: 880px) {
+    .home-crate-header {
+        font-size: 1.2rem;
+    }
+
+    .home-crate:first-child, .home-crate:nth-child(3) {
+        padding-left: 1rem;
+        padding-top: 0.4rem;
+    }
+    
+    .home-crate:nth-child(2), .home-crate:last-child {
+        padding-right: 1rem;
+        padding-top: 0.4rem;
+    }
+}
+
+@media screen and (max-height: 820px) {
+    .home-crate-header {
+        font-size: 1.1rem;
+    }
+
+    .home-crate:first-child, .home-crate:nth-child(3) {
+        padding-left: 2.2rem;
+        padding-top: 0.5rem;
+    }
+    
+    .home-crate:nth-child(2), .home-crate:last-child {
+        padding-right: 2.2rem;
+        padding-top: 0.5rem;
+    }
+}
+
+@media screen and (max-height: 760px) {
+    .home-crate-header {
+        font-size: 1rem;
+    }
+
+    .home-crate:first-child, .home-crate:nth-child(3) {
+        padding-left: 3.4rem;
+        padding-top: 0.6rem;
+    }
+    
+    .home-crate:nth-child(2), .home-crate:last-child {
+        padding-right: 3.4rem;
+        padding-top: 0.6rem;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .home-sign {
+        padding-top: 1.5rem;
+        min-height: 18rem;
+    }
+
+    .home-sign h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    .home-sign p {
+        padding: 0 8rem;
+        font-size: 1.5rem;
+    }
+    
+    .home-bunny {
+        width: 18%;
+    }
+    
+    .home-market {
+        min-height: 31rem;
+    }
+
+    .home-crate-header {
+        font-size: 0.8rem;
+    }
+
+    .home-crate:first-child, .home-crate:nth-child(3) {
+        padding-left: 4.6rem;
+        padding-top: 0.7rem;
+    }
+    
+    .home-crate:nth-child(2), .home-crate:last-child {
+        padding-right: 4.6rem;
+        padding-top: 0.7rem;
+    }
+} 

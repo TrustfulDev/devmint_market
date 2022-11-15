@@ -1,0 +1,9 @@
+.cluster-container {
+    display: flex;
+    height: 100%;
+    padding-top: 4.9rem;
+    padding-bottom: 0.5rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}

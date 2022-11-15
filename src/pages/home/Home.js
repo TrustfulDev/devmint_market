@@ -5,15 +5,21 @@ import { useEffect } from 'react';
 // Import icons
 import { TiSortAlphabeticallyOutline, TiVolumeUp, TiArrowMinimiseOutline, TiDocumentText } from 'react-icons/ti';
 
+// Link for page routing
+import { Link } from 'react-router-dom';
+
 // Import Audio
 import { playSound, bgm, crateSFX } from './homeAudio';
 import ReactHowler from 'react-howler';
 
-// Import Image
+// Import Images
 import { bg, market, crate, welcomeSign, bunny } from '../../assets/images';
 import { motion, useAnimationControls } from 'framer-motion';
 
 const Home = () => {
+    // For routing with framer motion
+    const MotionLink = motion(Link);
+
     // Animation Controllers
     const bunnyControls = useAnimationControls();
     const marketControls = useAnimationControls();
@@ -91,41 +97,45 @@ const Home = () => {
             >
                 <div className='home-market' style={{ backgroundImage: `url(${market})`}}>
                     <div className='home-crates'>
-                        <motion.div className='home-crate' 
+                        <MotionLink className='home-crate' 
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
+                            to='/'
                         >
                             <h3 className='home-crate-header'>Alphabet List</h3>
                             <TiSortAlphabeticallyOutline className='home-crate-icon' />
-                        </motion.div>
+                        </MotionLink>
 
-                        <motion.div className='home-crate' 
+                        <MotionLink className='home-crate' 
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
+                            to='/clusters'
                         >
                             <h3 className='home-crate-header'>Clusters List</h3>
                             <TiArrowMinimiseOutline className='home-crate-icon' />
-                        </motion.div>
+                        </MotionLink>
 
-                        <motion.div className='home-crate' 
+                        <MotionLink className='home-crate' 
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
+                            to='/'
                         >
                             <h3 className='home-crate-header'>Tones List</h3>
                             <TiVolumeUp className='home-crate-icon' />
-                        </motion.div>
+                        </MotionLink>
 
-                        <motion.div className='home-crate' 
+                        <MotionLink className='home-crate' 
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
+                            to='/'
                         >
                             <h3 className='home-crate-header'>Vocab List</h3>
                             <TiDocumentText className='home-crate-icon' />
-                        </motion.div>
+                        </MotionLink>
                     </div>
                 </div>
             </motion.div>

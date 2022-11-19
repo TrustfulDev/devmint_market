@@ -13,7 +13,7 @@ import { playSound, bgm, crateSFX } from './homeAudio';
 import ReactHowler from 'react-howler';
 
 // Import Images
-import { bg, market, crate, welcomeSign, bunny } from '../../assets/images';
+import { bg, market, crate, welcomeSign, bunnyDefault } from '../../assets/images';
 import { motion, useAnimationControls } from 'framer-motion';
 
 const Home = () => {
@@ -68,7 +68,7 @@ const Home = () => {
         >
             <ReactHowler 
                 src={bgm}
-                volume={0.03}
+                volume={0.05}
                 playing={true}
                 loop={true}
             />
@@ -87,7 +87,7 @@ const Home = () => {
                     initial={{ x: -500, y: 1000, scale: 0.8 }}
                     animate={ bunnyControls }
                 >
-                    <img src={bunny} alt='Bunny Mascot' />
+                    <img src={bunnyDefault} alt='Bunny Mascot' />
                 </motion.div>
             </div>
 
@@ -103,7 +103,7 @@ const Home = () => {
                             style={{ backgroundImage: `url(${crate})`}}
                             to='/'
                         >
-                            <h3 className='home-crate-header'>Alphabet List</h3>
+                            <h3 className='home-crate-header'>Alphabet Page</h3>
                             <TiSortAlphabeticallyOutline className='home-crate-icon' />
                         </MotionLink>
 
@@ -113,7 +113,7 @@ const Home = () => {
                             style={{ backgroundImage: `url(${crate})`}}
                             to='/clusters'
                         >
-                            <h3 className='home-crate-header'>Clusters List</h3>
+                            <h3 className='home-crate-header'>Clusters Page</h3>
                             <TiArrowMinimiseOutline className='home-crate-icon' />
                         </MotionLink>
 
@@ -123,7 +123,7 @@ const Home = () => {
                             style={{ backgroundImage: `url(${crate})`}}
                             to='/'
                         >
-                            <h3 className='home-crate-header'>Tones List</h3>
+                            <h3 className='home-crate-header'>Tones Page</h3>
                             <TiVolumeUp className='home-crate-icon' />
                         </MotionLink>
 
@@ -133,7 +133,7 @@ const Home = () => {
                             style={{ backgroundImage: `url(${crate})`}}
                             to='/'
                         >
-                            <h3 className='home-crate-header'>Vocab List</h3>
+                            <h3 className='home-crate-header'>Vocab Page</h3>
                             <TiDocumentText className='home-crate-icon' />
                         </MotionLink>
                     </div>

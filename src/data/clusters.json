@@ -1,0 +1,381 @@
+[
+	{
+		"combo": "ch",
+		"audio": "",
+		"vietEx": "che",
+		"engEx": "cover",
+		"type": "consonant"
+	},
+	{
+		"combo": "gh",
+		"audio": "",
+		"vietEx": "ghe",
+		"engEx": "boat",
+		"type": "consonant"
+	},
+	{
+		"combo": "gi",
+		"audio": "",
+		"vietEx": "giàu",
+		"engEx": "rich/wealthy",
+		"type": "consonant"
+	},
+	{
+		"combo": "kh",
+		"audio": "",
+		"vietEx": "khi",
+		"engEx": "when",
+		"type": "consonant"
+	},
+	{
+		"combo": "ng",
+		"audio": "",
+		"vietEx": "sống",
+		"engEx": "live",
+		"type": "consonant"
+	},
+	{
+		"combo": "ngh",
+		"audio": "",
+		"vietEx": "nghèo",
+		"engEx": "poor",
+		"type": "consonant"
+	},
+	{
+		"combo": "nh",
+		"audio": "",
+		"vietEx": "nhình",
+		"engEx": "look",
+		"type": "consonant"
+	},
+	{
+		"combo": "ph",
+		"audio": "",
+		"vietEx": "phải",
+		"engEx": "right",
+		"type": "consonant"
+	},
+	{
+		"combo": "qu",
+		"audio": "",
+		"vietEx": "quà",
+		"engEx": "gift",
+		"type": "consonant"
+	},
+	{
+		"combo": "th",
+		"audio": "",
+		"vietEx": "tháo",
+		"engEx": "remove/unfasten",
+		"type": "consonant"
+	},
+	{
+		"combo": "tr",
+		"audio": "",
+		"vietEx": "trả",
+		"engEx": "pay/return",
+		"type": "consonant"
+	},
+	{
+		"combo": "ai",
+		"audio": "",
+		"vietEx": "mai",
+		"engEx": "tomorrow",
+		"type": "double"
+	},
+	{
+		"combo": "ao",
+		"audio": "",
+		"vietEx": "cao",
+		"engEx": "tall",
+		"type": "double"
+	},
+	{
+		"combo": "au",
+		"audio": "",
+		"vietEx": "mau",
+		"engEx": "fast",
+		"type": "double"
+	},
+	{
+		"combo": "âu",
+		"audio": "",
+		"vietEx": "đâu",
+		"engEx": "where",
+		"type": "double"
+	},
+	{
+		"combo": "ay",
+		"audio": "",
+		"vietEx": "bay",
+		"engEx": "fly",
+		"type": "double"
+	},
+	{
+		"combo": "ây",
+		"audio": "",
+		"vietEx": "mây",
+		"engEx": "cloud",
+		"type": "double"
+	},
+	{
+		"combo": "eo",
+		"audio": "",
+		"vietEx": "kéo",
+		"engEx": "pull",
+		"type": "double"
+	},
+	{
+		"combo": "êu",
+		"audio": "",
+		"vietEx": "thêu",
+		"engEx": "embroider",
+		"type": "double"
+	},
+	{
+		"combo": "ia",
+		"audio": "",
+		"vietEx": "nĩa",
+		"engEx": "fork",
+		"type": "double"
+	},
+	{
+		"combo": "iê",
+		"audio": "",
+		"vietEx": "tiệm",
+		"engEx": "store",
+		"type": "double"
+	},
+	{
+		"combo": "iu",
+		"audio": "",
+		"vietEx": "thiu",
+		"engEx": "spoiled (food)",
+		"type": "double"
+	},
+	{
+		"combo": "yê",
+		"audio": "",
+		"vietEx": "yên",
+		"engEx": "calm",
+		"type": "double"
+	},
+	{
+		"combo": "oa",
+		"audio": "",
+		"vietEx": "hoa",
+		"engEx": "flower",
+		"type": "double"
+	},
+	{
+		"combo": "oă",
+		"audio": "",
+		"vietEx": "hoặc",
+		"engEx": "or",
+		"type": "double"
+
+	},
+	{
+		"combo": "oi",
+		"audio": "",
+		"vietEx": "nói",
+		"engEx": "speak",
+		"type": "double"
+	},
+	{
+		"combo": "ôi",
+		"audio": "",
+		"vietEx": "tôi",
+		"engEx": "I (formal)",
+		"type": "double"
+	},
+	{
+		"combo": "ơi",
+		"audio": "",
+		"vietEx": "bơi",
+		"engEx": "swim",
+		"type": "double"
+	},
+	{
+		"combo": "ua",
+		"audio": "",
+		"vietEx": "mua",
+		"engEx": "to buy",
+		"type": "double"
+	},
+	{
+		"combo": "uâ",
+		"audio": "",
+		"vietEx": "xuân",
+		"engEx": "spring (season)",
+		"type": "double"
+	},
+	{
+		"combo": "uê",
+		"audio": "",
+		"vietEx": "thuê",
+		"engEx": "rent",
+		"type": "double"
+	},
+	{
+		"combo": "ui",
+		"audio": "",
+		"vietEx": "núi",
+		"engEx": "mountain",
+		"type": "double"
+	},
+	{
+		"combo": "uơ",
+		"audio": "",
+		"vietEx": "thuở",
+		"engEx": "time",
+		"type": "double"
+	},
+	{
+		"combo": "ưa",
+		"audio": "",
+		"vietEx": "mưa",
+		"engEx": "rain",
+		"type": "double"
+	},
+	{
+		"combo": "ưi",
+		"audio": "",
+		"vietEx": "ngửi",
+		"engEx": "to smell",
+		"type": "double"
+	},
+	{
+		"combo": "ươ",
+		"audio": "",
+		"vietEx": "nước",
+		"engEx": "water",
+		"type": "double"
+	},
+	{
+		"combo": "ưu",
+		"audio": "",
+		"vietEx": "cứu",
+		"engEx": "save/rescue",
+		"type": "double"
+	},
+	{
+		"combo": "iêu",
+		"audio": "",
+		"vietEx": "tiêu",
+		"engEx": "pepper",
+		"type": "triple"
+	},
+	{
+		"combo": "oai",
+		"audio": "",
+		"vietEx": "xoài",
+		"engEx": "mango",
+		"type": "triple"
+	},
+	{
+		"combo": "oay",
+		"audio": "",
+		"vietEx": "xoay",
+		"engEx": "to turn",
+		"type": "triple"
+	},
+	{
+		"combo": "oeo",
+		"audio": "",
+		"vietEx": "ngoằn ngoèo",
+		"engEx": "meandering",
+		"type": "triple"
+	},
+	{
+		"combo": "uai",
+		"audio": "",
+		"vietEx": "quai",
+		"engEx": "handle",
+		"type": "triple"
+	},
+	{
+		"combo": "uao",
+		"audio": "",
+		"vietEx": "quào",
+		"engEx": "to scratch",
+		"type": "triple"
+	},
+	{
+		"combo": "uau",
+		"audio": "",
+		"vietEx": "quạu",
+		"engEx": "grumpy",
+		"type": "triple"
+	},
+	{
+		"combo": "uay",
+		"audio": "",
+		"vietEx": "quay",
+		"engEx": "to turn",
+		"type": "triple"
+	},
+	{
+		"combo": "uây",
+		"audio": "",
+		"vietEx": "quây quần",
+		"engEx": "to gather around",
+		"type": "triple"
+	},
+	{
+		"combo": "ueo",
+		"audio": "",
+		"vietEx": "quẹo",
+		"engEx": "to turn",
+		"type": "triple"
+	},
+	{
+		"combo": "uôi",
+		"audio": "",
+		"vietEx": "muối",
+		"engEx": "salt",
+		"type": "triple"
+	},
+	{
+		"combo": "uya",
+		"audio": "",
+		"vietEx": "khuya",
+		"engEx": "late night",
+		"type": "triple"
+	},
+	{
+		"combo": "uyê",
+		"audio": "",
+		"vietEx": "tuyết",
+		"engEx": "snow",
+		"type": "triple"
+	},
+	{
+		"combo": "uyu",
+		"audio": "",
+		"vietEx": "khuỵu",
+		"engEx": "to collapse",
+		"type": "triple"
+	},
+	{
+		"combo": "ươi",
+		"audio": "",
+		"vietEx": "cười",
+		"engEx": "to laugh",
+		"type": "triple"
+	},
+	{
+		"combo": "ươu",
+		"audio": "",
+		"vietEx": "hươu",
+		"engEx": "deer",
+		"type": "triple"
+	},
+	{
+		"combo": "yêu",
+		"audio": "",
+		"vietEx": "yêu",
+		"engEx": "",
+		"type": "love"
+	}
+]

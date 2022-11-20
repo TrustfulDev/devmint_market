@@ -1,7 +1,7 @@
 .main-container {
     box-sizing: border-box;
     display: flex;
-    background-image: url(alphabet_garden_BG_shadow_v1.png);
+    background-image: url(../../assets/images/alphabetImages/alphabet_garden_BG_shadow_v1.png);
     background-size: 111%;
     background-repeat: no-repeat;
     height: 100%;
@@ -313,6 +313,10 @@
 }
 
 @media (-webkit-device-pixel-ratio: 1.25) {
+    :root {
+        zoom: 0.788;
+    }
+
     .bg_row {
         padding-right: 10%;
     }

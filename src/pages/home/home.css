@@ -406,3 +406,21 @@
         padding-top: 0.7rem;
     }
 }
+
+/* This is for screen adjustment 100% -> 125% */
+@media (-webkit-device-pixel-ratio: 1.25) {
+    :root {
+        zoom: 0.8 !important;
+    }
+
+    .home-crate-header {
+        font-size: 1.5rem !important;
+        width: 79%;
+    }
+
+    .home-crate {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100% !important;
+    }
+}

@@ -1,15 +1,11 @@
 import './alphabet.css'
-import { bunny, alphabet_bg, speech_bubble, wood_sign, wood_sign_letter } from '../../assets/images';
+import { bunny, alphabet_bg, speech_bubble, wood_sign, wood_sign_letter } from '../../assets/images/';
 
 const Alphabet = () => {
 
     return (
         <section className="main-container">
             <div className="left-main-box">
-                {/* <div id="concept-text">
-                    <h1>Time to learn Alphabets!</h1>
-                    <p>Click the buttons on the right to hear what it sounds like</p>
-                </div> */}
                 <div id="speech_container">
                     <img id="speech_bubble" src={speech_bubble} alt="" />
                     <div id="concept-text">

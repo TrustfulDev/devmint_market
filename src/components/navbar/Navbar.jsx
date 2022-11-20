@@ -22,7 +22,7 @@ const Menu = () => (
             <TiSortAlphabeticallyOutline />
             Alphabet
         </Link>
-        <Link to='/' className='nav-item'>
+        <Link to='/clusters' className='nav-item'>
             <TiVolumeUp />
             Clusters
         </Link>

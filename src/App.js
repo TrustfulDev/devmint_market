@@ -2,7 +2,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 // Pages
-import { Home, Alphabet } from './pages';
+import { Home, Alphabet, Clusters } from './pages';
 
 // Components
 import { Navbar } from './components';
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/alphabet' element={<Alphabet />}></Route>
+        <Route path='/clusters' element={<Clusters />}></Route>
       </Routes>
     </div>
   );

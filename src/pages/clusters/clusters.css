@@ -1,0 +1,178 @@
+.cluster-container {
+    display: flex;
+    height: 100%;
+    min-height: 51.5rem;
+    padding-top: 4.9rem;
+
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.cluster-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cluster-left img:first-child {
+    width: 95%;
+    padding: 1rem;
+}
+
+.cluster-left img:last-child {
+    width: 60%;
+    max-height: 22rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.speech-text {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    right: 3.5rem;
+
+    text-align: center;
+    color: var(--dark-green);
+}
+
+.speech-text h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.speech-text p {
+    font-size: 1.9rem;
+    margin-top: 1rem;
+}
+
+.cluster-right {
+    flex: 2.5;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-right: 3rem;
+}
+
+.cluster-btns {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 0rem;
+    padding: 2rem 6rem 0.5rem 6rem;
+    /* background-color: rgba(0, 128, 0, 0.4); */
+    max-height: 24.4rem;
+}
+
+.cluster-btn {
+    background-size: cover;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-green);
+    font-size: 2rem;
+    transition: 0.3s cubic-bezier(0, .99, 0, .99);
+    user-select: none;
+    backface-visibility: hidden;
+}
+
+.cluster-btn:hover {
+    scale: 1.1;
+}
+
+.cluster-btn:active {
+    scale: 0.95;
+}
+
+.consonant {
+    width: 9.5rem;
+    height: 7.64rem;
+}
+
+.double {
+    width: 5.3rem;
+    height: 4.2rem;
+    padding-left: 0.35rem;
+    padding-bottom: 0.9rem;
+}
+
+.triple {
+    width: 9.5rem;
+    height: 5rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.25rem;
+}
+
+.cluster-bags {
+    flex: 1;
+    display: flex;
+    padding: 0 3rem;
+    user-select: none;
+    /* background-color: rgba(0, 0, 255, 0.4); */
+}
+
+.cluster-bag {
+    position: relative;
+    cursor: pointer;
+    color: var(--dark-green);
+    backface-visibility: hidden;
+    transition: 0.4s cubic-bezier(0, .99, 0, .99);
+    text-align: right;
+}
+
+.cluster-bag:hover {
+    scale: 1.1;
+    z-index: 100;
+    animation: shake-bag 3s infinite alternate-reverse;
+}
+
+.cluster-bag:active {
+    scale: 0.99;
+}
+
+.consonant-header {
+    top: -1.9rem !important;
+    left: 7rem !important;
+    width: 50% !important;
+}
+
+.cluster-bag h3 {
+    position: absolute;
+    left: 9.3rem;
+    top: -1.8rem;
+    font-size: 1.8rem;
+    width: 40%;
+}
+
+.cluster-bag img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes shake-bag {
+    0% {
+        rotate: -1deg;
+    }
+
+    25% {
+        rotate: 1deg;
+    }
+
+    50% {
+        rotate: -1deg;
+    }
+
+    75% {
+        rotate: 1deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}

@@ -2,17 +2,28 @@ import './alphabet.css'
 import { bunny, alphabet_bg, speech_bubble, wood_sign, wood_sign_letter } from '../../assets/images';
 
 const Alphabet = () => {
+
     return (
         <section className="main-container">
             <div className="left-main-box">
-                <div id="concept">*Concept</div>
+                {/* <div id="concept-text">
+                    <h1>Time to learn Alphabets!</h1>
+                    <p>Click the buttons on the right to hear what it sounds like</p>
+                </div> */}
                 <div id="speech_container">
                     <img id="speech_bubble" src={speech_bubble} alt="" />
+                    <div id="concept-text">
+                        <h1>Time to learn Alphabets!</h1>
+                        <p>Click the buttons on the right to hear what it sounds like --&gt;</p>
+                    </div>
                 </div>
                 <div id="bunny_container">
                     <img id="bunny" src={bunny} alt="picture_of_bunny" />
-                    {/* <img id="wood_sign" src={wood_sign} alt="wood sign image" /> */}
-                    <img id="wood_sign" src={wood_sign_letter} alt="wood sign image" />
+                    <div id="start-game-container">
+                        <img id="wood_sign" src={wood_sign} alt="wood sign image" />
+                        {/* <img id="wood_sign" src={wood_sign_letter} alt="wood sign image" /> */}
+                        <p id="hide_me">START GAME!</p>
+                    </div>
                 </div>
             </div>
 

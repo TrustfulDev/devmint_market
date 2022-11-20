@@ -1,47 +1,63 @@
 import './alphabet.css'
-import { bunny, alphabet_bg, speech_bubble } from '../../assets/images';
+import { bunny, alphabet_bg, speech_bubble, wood_sign, wood_sign_letter } from '../../assets/images';
 
 const Alphabet = () => {
     return (
         <section className="main-container">
             <div className="left-main-box">
                 <div id="concept">*Concept</div>
-                <img id="speech_bubble" src={speech_bubble} alt="" />
-                <img id="bunny" src={bunny} alt="picture_of_bunny" />
+                <div id="speech_container">
+                    <img id="speech_bubble" src={speech_bubble} alt="" />
+                </div>
+                <div id="bunny_container">
+                    <img id="bunny" src={bunny} alt="picture_of_bunny" />
+                    {/* <img id="wood_sign" src={wood_sign} alt="wood sign image" /> */}
+                    <img id="wood_sign" src={wood_sign_letter} alt="wood sign image" />
+                </div>
             </div>
 
             <div className="right-main-box">
                 <div className="bg_container">
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <img className="bg_img" src={alphabet_bg} alt="" />
-                    <span></span>
+                    <div className="bg_row">
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                    </div>
+                    <div className="bg_row">
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                    </div>
+                    <div className="bg_row">
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                    </div>
+                    <div className="bg_row">
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                    </div>
+                    <div className="bg_row">
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <img className="bg_img" src={alphabet_bg} alt="" />
+                        <span></span>
+                    </div>
                 </div>
                 <div className="letter" id="A0">a</div>
                 <div className="letter" id="A1">â</div>

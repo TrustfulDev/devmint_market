@@ -1,4 +1,5 @@
 .main-container {
+    box-sizing: border-box;
     display: flex;
     background-image: url(alphabet_garden_BG_shadow_v1.png);
     background-size: 111%;
@@ -16,186 +17,210 @@
     font-family: var(--font-family);
     font-size: 4rem;
     position: absolute;
-    top: 15rem;
-    right: 14rem
+    top: 30%;
+    right: 40%;
 }
 
 .left-main-box {
+    box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 36%;
+    width: 40%;
     height: 100%;
     justify-content: flex-end;
     align-content: center;
-    padding-left: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2%;
 }
 
-.left-main-box img {
+#bunny_container {
+    box-sizing: border-box;
+    padding-left: 3%;
+    display: flex;
+    height: 42%;
+    flex-direction: row;
+}
+
+#bunny {
+    height: 100%;
+    width: 35%;
+}
+
+#wood_sign {
+    height: 100%;
     width: 50%;
-    height: 38%;
+    flex-grow: 1;
+}
+
+#speech_container {
+    box-sizing: border-box;
+    height: 50%;
+    padding: 16% 15% 0 15%;
 }
 
 #speech_bubble {
-    width: 80%;
+    width: 100%;
+    height: 100%;
+}
+
+#A0 {
+    top: 29.2%;
+    left: 9.3%;
+}
+
+#A1 {
+    top: 29.2%;
+    left: 22.5%;
+}
+
+#A2 {
+    top: 29.2%;
+    left: 35.8%;
+}
+
+#A3 {
+    top: 29.3%;
+    left: 49%;
+}
+
+#A4 {
+    top: 29.2%;
+    left: 62%;
+}
+
+#A5 {
+    top: 29.2%;
+    left: 75%;
+}
+
+#A6 {
+    top: 42.6%;
+    left: 9.3%;
+}
+
+#A7 {
+    top: 42.6%;
+    left: 22.5%;
+}
+
+#A8 {
+    top: 42.6%;
+    left: 35.8%;
+}
+
+#A9 {
+    top: 42%;
+    left: 49%;
+}
+
+#A10 {
+    top: 42.6%;
+    left: 62%;
+}
+
+#A11 {
+    top: 42.6%;
+    left: 75%;
+}
+
+#A12 {
+    top: 55.7%;
+    left: 9.3%;
+}
+
+#A13 {
+    top: 55.7%;
+    left: 22.5%;
+}
+
+#A14 {
+    top: 55.7%;
+    left: 35.8%;
+}
+
+#A15 {
+    top: 55.7%;
+    left: 49%;
+}
+
+#A16 {
+    top: 55.7%;
+    left: 62%;
+}
+
+#A17 {
+    top: 55.7%;
+    left: 75%;
+}
+
+#A18 {
+    top: 68%;
+    left: 9.3%;
+}
+
+#A19 {
+    top: 68%;
+    left: 22.5%;
+}
+
+#A20 {
+    top: 68%;
+    left: 35.8%;
+}
+
+#A21 {
+    top: 68%;
+    left: 49%;
+}
+
+#A22 {
+    top: 68%;
+    left: 62%;
+}
+
+#A23 {
+    top: 68%;
+    left: 75%;
+}
+
+#A24 {
+    top: 81%;
+    left: 9.5%;
+}
+
+#A25 {
+    top: 81%;
+    left: 22.5%;
+}
+
+#A26 {
+    top: 81%;
+    left: 35.8%;
+}
+
+#A27 {
+    top: 81%;
+    left: 49%;
+}
+
+#A28 {
+    top: 81%;
+    left: 62%;
 }
 
 .right-main-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
     color: var(--dark-green);
     position: relative;
     width: 60%;
     height: 100%;
 }
 
-#A0 {
-    top: 14.1rem;
-    left: 9.3rem;
-}
-
-#A1 {
-    top: 14.1rem;
-    left: 17rem;
-}
-
-#A2 {
-    top: 14.1rem;
-    left: 24.5rem;
-}
-
-#A3 {
-    top: 14.1rem;
-    left: 32.2rem;
-}
-
-#A4 {
-    top: 14.1rem;
-    left: 39.7rem;
-}
-
-#A5 {
-    top: 14.1rem;
-    left: 47.3rem;
-}
-
-#A6 {
-    top: 19.8rem;
-    left: 9.3rem;
-}
-
-#A7 {
-    top: 19.8rem;
-    left: 17.1rem;
-}
-
-#A8 {
-    top: 19.8rem;
-    left: 24.7rem;
-}
-
-#A9 {
-    top: 19.8rem;
-    left: 32.2rem;
-}
-
-#A10 {
-    top: 19.8rem;
-    left: 39.8rem;
-}
-
-#A11 {
-    top: 19.8rem;
-    left: 47.3rem;
-}
-
-#A12 {
-    top: 25.5rem;
-    left: 9.4rem;
-}
-
-#A13 {
-    top: 25.5rem;
-    left: 17.1rem;
-}
-
-#A14 {
-    top: 25.5rem;
-    left: 24.7rem;
-}
-
-#A15 {
-    top: 25.5rem;
-    left: 32.3rem;
-}
-
-#A16 {
-    top: 25.5rem;
-    left: 39.8rem;
-}
-
-#A17 {
-    top: 25.5rem;
-    left: 47.2rem;
-}
-
-#A18 {
-    top: 31.2rem;
-    left: 9.4rem;
-}
-
-#A19 {
-    top: 31.2rem;
-    left: 17.1rem;
-}
-
-#A20 {
-    top: 31.2rem;
-    left: 24.7rem;
-}
-
-#A21 {
-    top: 31.2rem;
-    left: 32.1rem;
-}
-
-#A22 {
-    top: 31.2rem;
-    left: 39.7rem;
-}
-
-#A23 {
-    top: 31.2rem;
-    left: 47.3rem;
-}
-
-#A24 {
-    top: 36.9rem;
-    left: 9.4rem;
-}
-
-#A25 {
-    top: 36.9rem;
-    left: 17rem;
-}
-
-#A26 {
-    top: 36.9rem;
-    left: 24.6rem;
-}
-
-#A27 {
-    top: 36.9rem;
-    left: 32.1rem;
-}
-
-#A28 {
-    top: 36.9rem;
-    left: 39.7rem;
-}
-
 .letter {
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     text-align: center;
     cursor: grab;
     height: 3.3rem;
@@ -212,24 +237,26 @@
 
 .bg_container {
     position: relative;
-    width: 79%;
-    height: 65%;
+    width: 100%;
+    height: 72.8%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     align-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 13rem;
-    margin-left: 7.2rem;
+    flex-direction: column;
     transition: all 0.1s;
     transition-timing-function: ease-in;
-    /* flex-shrink: 2; */
+}
+
+.bg_row {
+    display: flex;
+    flex-shrink: 1;
+    padding-right: 9.7%;
 }
 
 .right-main-box img {
-    height: 4.6rem;
-    width: 4.6rem;
+    height: 4.7rem;
+    width: 4.7rem;
     margin: 0.55rem 1.41rem;
     opacity: 1;
 }

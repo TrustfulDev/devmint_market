@@ -122,11 +122,12 @@
 
 /* For 2k resolutions and up */
 @media screen and (min-height: 1100px) {
+
     /* Left side - Bunny and Sign */
     .home-sign {
         padding: 0 6.8rem 6.5rem 6.8rem;
     }
-    
+
     .home-sign h1 {
         font-size: 5rem;
     }
@@ -143,7 +144,7 @@
     .home-crate-header {
         font-size: 1.5rem;
     }
-    
+
     .home-crate-icon {
         width: 20%;
     }
@@ -151,10 +152,11 @@
 
 /* Width Adjustments for full page */
 @media screen and (max-width: 1647px) {
+
     /* Left side - Bunny and Sign - Now on top */
     .home-sign {
         max-width: 35rem;
-        padding: 0 2rem 4rem 2rem; 
+        padding: 0 2rem 4rem 2rem;
     }
 
     .home-bunny {
@@ -181,7 +183,7 @@
         word-wrap: break-word;
         font-size: 1rem;
     }
-    
+
     .home-crate-icon {
         display: none;
     }
@@ -203,13 +205,13 @@
     .home-sign {
         max-width: 29rem;
         min-height: 16rem;
-        padding: 0 3rem 2.2rem 3rem; 
+        padding: 0 3rem 2.2rem 3rem;
     }
 
     .home-sign h1 {
         font-size: 1.88rem;
     }
-    
+
     .home-sign p {
         font-size: 1.23rem;
         padding: 0 !important;
@@ -231,11 +233,11 @@
         max-width: 24rem;
         margin-bottom: 1rem;
     }
-    
+
     .home-crates {
         row-gap: 0.5rem;
         column-gap: 1rem;
-    
+
         position: relative;
         left: 20.5%;
         width: 63%;
@@ -251,7 +253,7 @@
 
 @media screen and (max-width: 485px) {
     .home-sign {
-        padding: 0 1.5rem 3rem 1.5rem; 
+        padding: 0 1.5rem 3rem 1.5rem;
     }
 
     .home-sign h1 {
@@ -270,14 +272,14 @@
     }
 
     .home-sign {
-        padding: 0 1.5rem 4.75rem 1.5rem; 
+        padding: 0 1.5rem 4.75rem 1.5rem;
     }
 
     .home-sign h1 {
         font-size: 1.5rem;
         line-height: 1;
     }
-    
+
     .home-sign p {
         font-size: 1.23rem;
     }
@@ -285,11 +287,11 @@
     .home-bunny {
         width: 50% !important;
     }
-    
+
     .home-crates {
         row-gap: 0.5rem;
         column-gap: 1rem;
-    
+
         position: relative;
         top: 54.5%;
         left: 17%;
@@ -307,11 +309,11 @@
     .home-sign {
         min-height: 17rem;
     }
-    
+
     .home-sign h1 {
         font-size: 2rem;
     }
-    
+
     .home-sign p {
         padding: 0 8rem;
         font-size: 1.5rem;
@@ -327,7 +329,7 @@
         padding-left: 1rem;
         padding-top: 0.4rem;
     }
-    
+
     .home-crate:nth-child(2), .home-crate:last-child {
         padding-right: 1rem;
         padding-top: 0.4rem;
@@ -343,7 +345,7 @@
         padding-left: 2.2rem;
         padding-top: 0.5rem;
     }
-    
+
     .home-crate:nth-child(2), .home-crate:last-child {
         padding-right: 2.2rem;
         padding-top: 0.5rem;
@@ -359,7 +361,7 @@
         padding-left: 3.4rem;
         padding-top: 0.6rem;
     }
-    
+
     .home-crate:nth-child(2), .home-crate:last-child {
         padding-right: 3.4rem;
         padding-top: 0.6rem;
@@ -376,16 +378,16 @@
         margin: 0;
         font-size: 2rem;
     }
-    
+
     .home-sign p {
         padding: 0 8rem;
         font-size: 1.5rem;
     }
-    
+
     .home-bunny {
         width: 18%;
     }
-    
+
     .home-market {
         min-height: 31rem;
     }
@@ -398,9 +400,27 @@
         padding-left: 4.6rem;
         padding-top: 0.7rem;
     }
-    
+
     .home-crate:nth-child(2), .home-crate:last-child {
         padding-right: 4.6rem;
         padding-top: 0.7rem;
     }
-} 
+}
+
+/* This is for screen adjustment 100% -> 125% */
+@media (-webkit-device-pixel-ratio: 1.25) {
+    :root {
+        zoom: 0.8 !important;
+    }
+
+    .home-crate-header {
+        font-size: 1.5rem !important;
+        width: 79%;
+    }
+
+    .home-crate {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100% !important;
+    }
+}

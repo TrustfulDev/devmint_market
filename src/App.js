@@ -2,7 +2,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 // Pages
-import { Home, Clusters, Tones, Vocab } from './pages';
+import { Home, Alphabet, Clusters, Tones, Vocab } from './pages';
 
 // Components
 import { Navbar } from './components';
@@ -15,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/alphabet' element={<Alphabet />}></Route>
         <Route path='/clusters' element={<Clusters />}></Route>
         <Route path='/tones' element={<Tones />}></Route>
         <Route path='/vocab' element={<Vocab />}></Route>

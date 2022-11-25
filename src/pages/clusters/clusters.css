@@ -81,7 +81,7 @@
     align-items: center;
     color: var(--dark-green);
     font-size: 2rem;
-    transition: 0.3s cubic-bezier(0,.99,0,.99);
+    transition: 0.3s cubic-bezier(0, .99, 0, .99);
     user-select: none;
     backface-visibility: hidden;
 }
@@ -126,7 +126,7 @@
     cursor: pointer;
     color: var(--dark-green);
     backface-visibility: hidden;
-    transition: 0.4s cubic-bezier(0,.99,0,.99);
+    transition: 0.4s cubic-bezier(0, .99, 0, .99);
     text-align: right;
 }
 

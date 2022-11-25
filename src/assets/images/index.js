@@ -20,3 +20,15 @@ export { default as tomatoBtn } from '../../assets/images/clusterImages/tomatoBt
 export { default as lettuceBtn } from '../../assets/images/clusterImages/lettuceBtn.png';
 export { default as carrotBtn } from '../../assets/images/clusterImages/carrotBtn.png';
 export { default as speechBubble } from '../../assets/images/speechBubble.png';
+
+// Tone Page Images
+export { default as toneBg } from '../../assets/images/toneImages/toneBg.png';
+export { default as sacSymbol } from '../../assets/images/toneImages/sacSymbol.png';
+export { default as huyenSymbol } from '../../assets/images/toneImages/huyenSymbol.png';
+export { default as hoiSymbol } from '../../assets/images/toneImages/hoiSymbol.png';
+export { default as ngaSymbol } from '../../assets/images/toneImages/ngaSymbol.png';
+export { default as nangSymbol } from '../../assets/images/toneImages/nangSymbol.png';
+export { default as noSymbol } from '../../assets/images/toneImages/noSymbol.png';
+
+// Vocab Page Images
+export { default as vocabBg } from '../../assets/images/vocabBg.png';

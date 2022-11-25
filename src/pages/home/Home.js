@@ -121,7 +121,7 @@ const Home = () => {
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
-                            to='/'
+                            to='/tones'
                         >
                             <h3 className='home-crate-header'>Tones Page</h3>
                             <TiVolumeUp className='home-crate-icon' />
@@ -131,7 +131,7 @@ const Home = () => {
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
-                            to='/'
+                            to='/vocab'
                         >
                             <h3 className='home-crate-header'>Vocab Page</h3>
                             <TiDocumentText className='home-crate-icon' />

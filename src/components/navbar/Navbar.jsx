@@ -26,11 +26,11 @@ const Menu = () => (
             <TiVolumeUp />
             Clusters
         </Link>
-        <Link to='/' className='nav-item'>
+        <Link to='/tones' className='nav-item'>
             <TiArrowMinimiseOutline />
             Tones
         </Link>
-        <Link to='/' className='nav-item'>
+        <Link to='/vocab' className='nav-item'>
             <TiDocumentText />
             Vocab
         </Link>

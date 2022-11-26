@@ -1,0 +1,110 @@
+.tone-container {
+    display: flex;
+    height: 100%;
+    padding-top: 4.9rem;
+
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.tone-left {
+    flex: 0.98;
+    position: relative;
+    /* background-color: rgba(0, 128, 0, 0.4); */
+}
+
+.tone-left img {
+    width: 80%;
+}
+
+.tone-left img:last-child {
+    width: 60%;
+}
+
+.tone-text {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 63%;
+    left: 0;
+    right: 20%;
+    padding-top: 1.5rem;
+
+    color: var(--dark-green);
+}
+
+.tone-text h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.tone-text p {
+    font-size: 1.9rem;
+    margin-top: 1rem;
+}
+
+.tone-middle {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: var(--dark-green);
+}
+
+.tone-middle h3 {
+    margin-top: 4rem;
+}
+
+.tone-middle h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.tone-middle p {
+    padding: 0 7rem;
+}
+
+.tone-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 255, 0.4); */
+}
+
+.tone-right h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 6rem;
+    margin-top: -0.1rem;
+    color: var(--dark-green);
+}
+
+.symbolBtns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    width: 65%;
+}
+
+.symbolBtn {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s cubic-bezier(0, .99, 0, .99);
+}
+
+.symbolBtn:hover {
+    scale: 1.1;
+}
+
+.symbolBtn:active {
+    scale: 0.95;
+}

@@ -1,0 +1,50 @@
+[
+	{
+		"tonesymbolname": "không dấu",
+		"symbol": "no symbol",
+		"audio": "",
+		"explanation": "Static and no change to the sound/pitch",
+		"vietEx": "la",
+		"engEx": "shout"
+	},
+	{
+		"tonesymbolname": "dấu sắc",
+		"symbol": "/",
+		"audio": "",
+		"explanation": "A rising tone; the sound glides upwards",
+		"vietEx": "lá",
+		"engEx": "leaf"
+	},
+	{
+		"tonesymbolname": "không dấu",
+		"symbol": "\\",
+		"audio": "",
+		"explanation": "A falling tone; the sound glides down",
+		"vietEx": "là",
+		"engEx": "to be"
+	},
+	{
+		"tonesymbolname": "dấu huyền",
+		"symbol": "?",
+		"audio": "",
+		"explanation": "Falling-rising tone; the pitch drops a little then goes back up. It sounds like you’re asking a question. Ex: “Huh?”",
+		"vietEx": "lả",
+		"engEx": "exhausted"
+	},
+	{
+		"tonesymbolname":"dấu hỏi",
+		"symbol": "~",
+		"audio": "",
+		"explanation": "High-broken tone; the pitch starts off high, then goes higher",
+		"vietEx": "lã",
+		"engEx": "plain water"
+	},
+	{
+		"tonesymbolname":"dấu nặng",
+		"symbol": ".",
+		"audio": "",
+		"explanation": "A low falling tone; sounds heavy and blun",
+		"vietEx": "lạ",
+		"engEx": "strange"
+	}
+]

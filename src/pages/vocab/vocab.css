@@ -1,10 +1,78 @@
 .vocab-container {
     height: 100%;
-    padding-top: 4.9rem;
+    padding-top: 13rem;
+    padding-bottom: 2rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     background-size: cover;
+    overflow: hidden;
+}
+
+.vocab-lists {
+    text-align: left;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    margin: 0 5rem;
+    box-shadow: inset 0 7px 9px -10px var(--light-green);
+}
+
+.vocab-lists h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.vocab-lists table {
+    margin: 0 auto;
+}
+
+.vocab-lists tr, th {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1500px) {
+    .vocab-container {
+        padding-top: 5.5rem;
+        padding-bottom: 2rem;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+
+    .vocab-lists {
+        height: 66%;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .vocab-container {
+        padding: 0;
+        padding-top: 3.5rem;
+        background-image: none !important;
+    }
+
+    .vocab-lists {
+        height: 90%;
+        border-bottom: 1px dotted var(--light-green);
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .vocab-container {
+        padding-top: 5rem;
+    }
+
+    .vocab-lists {
+        text-align: left;
+        overflow-y: auto;
+        height: 100%;
+        width: 100%;
+        margin: 0 1rem;
+        box-shadow: inset 0 7px 9px -10px var(--light-green);
+    }
 }

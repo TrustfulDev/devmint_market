@@ -1,0 +1,176 @@
+[
+	{
+		"letter": "a",
+		"audio": "",
+		"vietEx": "xa",
+		"engEx": "far"
+	},
+	{
+		"letter": "ă",
+		"audio": "",
+		"vietEx": "năm",
+		"engEx": "five/year"
+	},
+	{
+		"letter": "â",
+		"audio": "",
+		"vietEx": "tâm",
+		"engEx": "heart"
+	},
+	{
+		"letter": "b",
+		"audio": "",
+		"vietEx": "ba",
+		"engEx": "dad"
+	},
+	{
+		"letter": "c",
+		"audio": "",
+		"vietEx": "con",
+		"engEx": "child"
+	},
+	{
+		"letter": "d",
+		"audio": "",
+		"vietEx": "da",
+		"engEx": "skin"
+	},
+	{
+		"letter": "đ",
+		"audio": "",
+		"vietEx": "đi",
+		"engEx": "go"
+	},
+	{
+		"letter": "e",
+		"audio": "",
+		"vietEx": "xe",
+		"engEx": "car"
+	},
+	{
+		"letter": "ê",
+		"audio": "",
+		"vietEx": "lê",
+		"engEx": "pear"
+	},
+	{
+		"letter": "g",
+		"audio": "",
+		"vietEx": "gà",
+		"engEx": "chicken"
+	},
+	{
+		"letter": "h",
+		"audio": "",
+		"vietEx": "hai",
+		"engEx": "two"
+	},
+	{
+		"letter": "i",
+		"audio": "",
+		"vietEx": "chim",
+		"engEx": "bird"
+	},
+	{
+		"letter": "k",
+		"audio": "",
+		"vietEx": "kỹ",
+		"engEx": "carefully"
+	},
+	{
+		"letter": "l",
+		"audio": "",
+		"vietEx": "làm",
+		"engEx": "do"
+	},	
+	{
+		"letter": "m",
+		"audio": "",
+		"vietEx": "mẹ",
+		"engEx": "mom"
+	},
+	{
+		"letter": "n",
+		"audio": "",
+		"vietEx": "no",
+		"engEx": "full"
+	},	
+	{
+		"letter": "o",
+		"audio": "",
+		"vietEx": "lo",
+		"engEx": "worry"
+	},
+	{
+		"letter": "ô",
+		"audio": "",
+		"vietEx": "hôn",
+		"engEx": "kiss"
+	},	
+	{
+		"letter": "ơ",
+		"audio": "",
+		"vietEx": "ớt",
+		"engEx": "pepper"
+	},
+	{
+		"letter": "p",
+		"audio": "",
+		"vietEx": "tập",
+		"engEx": "practice"
+	},	
+	{
+		"letter": "q",
+		"audio": "",
+		"vietEx": "quà",
+		"engEx": "gift"
+	},
+	{
+		"letter": "r",
+		"audio": "",
+		"vietEx": "rửa",
+		"engEx": "wash"
+	},	
+	{
+		"letter": "s",
+		"audio": "",
+		"vietEx": "sống",
+		"engEx": "live"
+	},
+	{
+		"letter": "t",
+		"audio": "",
+		"vietEx": "tim",
+		"engEx": "heart"
+	},	
+	{
+		"letter": "u",
+		"audio": "",
+		"vietEx": "ru",
+		"engEx": "sing a lullaby"
+	},
+	{
+		"letter": "ư",
+		"audio": "",
+		"vietEx": "thư",
+		"engEx": "letter (mail)"
+	},	
+	{
+		"letter": "v",
+		"audio": "",
+		"vietEx": "vàng",
+		"engEx": "yellow/gold"
+	},
+	{
+		"letter": "x",
+		"audio": "",
+		"vietEx": "xe",
+		"engEx": "car"
+	},	
+	{
+		"letter": "y",
+		"audio": "",
+		"vietEx": "kỳ",
+		"engEx": "strange"
+	}
+]

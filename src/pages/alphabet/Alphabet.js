@@ -1,5 +1,5 @@
 import './alphabet.css'
-import { bunny, alphabet_bg, speech_bubble, wood_sign, wood_sign_letter } from '../../assets/images/';
+import { bunny, alphabet_bg, speech_bubble, wood_sign, wood_sign_letter } from '../../assets/images';
 
 const Alphabet = () => {
 
@@ -18,7 +18,7 @@ const Alphabet = () => {
                     <div id="start-game-container">
                         <img id="wood_sign" src={wood_sign} alt="wood sign image" />
                         {/* <img id="wood_sign" src={wood_sign_letter} alt="wood sign image" /> */}
-                        <p id="hide_me">START GAME!</p>
+                        <p>START GAME!</p>
                     </div>
                 </div>
             </div>

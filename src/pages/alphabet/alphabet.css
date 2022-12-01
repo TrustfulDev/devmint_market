@@ -2,7 +2,7 @@
     box-sizing: border-box;
     display: flex;
     background-image: url(../../assets/images/alphabetImages/alphabet_garden_BG_shadow_v1.png);
-    background-size: 111%;
+    background-size: 116%;
     background-repeat: no-repeat;
     height: 100%;
     background-position: left;
@@ -23,7 +23,7 @@
 
 #concept-text h1, #concept-text p {
     width: 80%;
-    padding: 5% 0 0 2%;
+    padding: 1% 0.1% 0% 2.5%;
     margin: 0;
 }
 
@@ -77,7 +77,7 @@
     width: 80%;
     height: 50%;
     left: 3rem;
-    top: 4rem;
+    top: 3rem;
     transition: all 0.1s;
     transition-timing-function: ease-in;
     cursor: grab;
@@ -101,148 +101,148 @@
 }
 
 #A0 {
-    top: 29.8%;
-    left: 9.3%;
+    top: 28.5%;
+    left: 12.3%;
 }
 
 #A1 {
-    top: 29.8%;
-    left: 22.5%;
+    top: 29%;
+    left: 26.2%;
 }
 
 #A2 {
-    top: 29.8%;
-    left: 35.5%;
+    top: 29%;
+    left: 39.9%;
 }
 
 #A3 {
-    top: 29.8%;
-    left: 48.5%;
+    top: 29.3%;
+    left: 53.8%;
 }
 
 #A4 {
-    top: 29.8%;
-    left: 61.5%;
+    top: 28.9%;
+    left: 67.5%;
 }
 
 #A5 {
-    top: 29.8%;
-    left: 74.5%;
+    top: 29.2%;
+    left: 81.2%;
 }
 
 #A6 {
-    top: 42.6%;
-    left: 9.3%;
+    top: 42.2%;
+    left: 12.3%;
 }
 
 #A7 {
-    top: 42.6%;
-    left: 22.5%;
+    top: 41.8%;
+    left: 26.2%;
 }
 
 #A8 {
-    top: 42.6%;
-    left: 35.6%;
+    top: 42%;
+    left: 39.9%;
 }
 
 #A9 {
-    top: 42%;
-    left: 48.5%;
+    top: 41.1%;
+    left: 53.8%;
 }
 
 #A10 {
-    top: 42.6%;
-    left: 61.5%;
+    top: 42%;
+    left: 67.5%;
 }
 
 #A11 {
-    top: 42.6%;
-    left: 74.5%;
+    top: 42%;
+    left: 81.2%;
 }
 
 #A12 {
-    top: 55.2%;
-    left: 9.3%;
+    top: 55%;
+    left: 12.3%;
 }
 
 #A13 {
     top: 55%;
-    left: 22.5%;
+    left: 26.2%;
 }
 
 #A14 {
     top: 55%;
-    left: 35.4%;
+    left: 39.9%;
 }
 
 #A15 {
     top: 55%;
-    left: 48.5%;
+    left: 53.8%;
 }
 
 #A16 {
-    top: 55%;
-    left: 61.5%;
+    top: 54.8%;
+    left: 67.5%;
 }
 
 #A17 {
     top: 55%;
-    left: 74.5%;
+    left: 81.2%;
 }
 
 #A18 {
-    top: 67.2%;
-    left: 9.3%;
+    top: 67.5%;
+    left: 12.3%;
 }
 
 #A19 {
-    top: 67.2%;
-    left: 22.5%;
+    top: 67%;
+    left: 26.2%;
 }
 
 #A20 {
-    top: 67.2%;
-    left: 35.4%;
+    top: 67%;
+    left: 39.9%;
 }
 
 #A21 {
-    top: 67.2%;
-    left: 48.5%;
+    top: 67.7%;
+    left: 53.8%;
 }
 
 #A22 {
-    top: 67.2%;
-    left: 61.5%;
+    top: 67.7%;
+    left: 67.5%;
 }
 
 #A23 {
-    top: 67.2%;
-    left: 74.5%;
+    top: 67.7%;
+    left: 81.2%;
 }
 
 #A24 {
-    top: 79.8%;
-    left: 9.2%;
+    top: 80.5%;
+    left: 12.3%;
 }
 
 #A25 {
-    top: 79.8%;
-    left: 22.5%;
+    top: 80.5%;
+    left: 26.2%;
 }
 
 #A26 {
-    top: 79.8%;
-    left: 35.3%;
+    top: 80.5%;
+    left: 39.9%;
 }
 
 #A27 {
-    top: 79.8%;
-    left: 48.5%;
+    top: 80.5%;
+    left: 53.8%;
 }
 
 #A28 {
-    top: 79.8%;
-    left: 61.5%;
+    top: 80%;
+    left: 67.5%;
 }
 
 .right-main-box {
@@ -277,13 +277,13 @@
 .bg_container {
     position: relative;
     width: 100%;
-    height: 72%;
+    height: 73%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     align-content: flex-start;
     flex-direction: column;
-    row-gap: 3px;
+    row-gap: 0.02rem;
     transition: all 0.1s;
     transition-timing-function: ease-in;
 }
@@ -291,21 +291,22 @@
 .bg_row {
     display: flex;
     flex-shrink: 1;
-    padding-right: 9.7%;
+    column-gap: 0.25rem;
+    padding-left: 0.5rem;
 }
 
 .right-main-box img {
-    height: 6rem;
-    width: 6rem;
-    margin: 0.55rem 1.7rem;
+    height: 5.6rem;
+    width: 5.6rem;
+    margin: 0.55rem 1.48rem;
     opacity: 1;
 }
 
 /* This is for the last bg box */
 .bg_container span {
-    height: 6rem;
-    width: 6rem;
-    margin: 0.55rem 1.7rem;
+    height: 5.6rem;
+    width: 5.6rem;
+    margin: 0.55rem 1.4rem;
 }
 
 .bg_img:hover {
@@ -317,159 +318,162 @@
         zoom: 0.788;
     }
 
-    .bg_row {
-        padding-right: 10%;
+    #start-game-container p {
+        top: 2.5rem;
     }
 
     .bg_container {
-        row-gap: 4px;
-    }
-
-    .bg_container {
-        height: 72.3%;
+        height: 74.3%;
+        row-gap: 0.05rem;
     }
 
     .right-main-box img {
-        margin-left: 30px;
+        margin-right: 1.48rem;
+        margin-left: 1.41rem;
+    }
+
+    #A0 {
+        top: 27.6%;
+        left: 12.5%;
     }
 
     #A1 {
-        top: 29.9%;
-        left: 22.6%;
+        top: 27.9%;
+        left: 26.2%;
     }
 
     #A2 {
-        top: 29.9%;
-        left: 35.5%;
+        top: 27.9%;
+        left: 39.9%;
     }
 
     #A3 {
-        top: 29.9%;
-        left: 48.5%;
+        top: 27.9%;
+        left: 53.5%;
     }
 
     #A4 {
-        top: 29.8%;
-        left: 61.6%;
+        top: 27.9%;
+        left: 67.2%;
     }
 
     #A5 {
-        top: 30%;
-        left: 74.7%;
+        top: 27.9%;
+        left: 80.9%;
     }
 
     #A6 {
-        top: 42.8%;
-        left: 9.2%;
+        top: 41.5%;
+        left: 12.5%;
     }
 
     #A7 {
-        top: 42.6%;
-        left: 22.3%;
+        top: 41.2%;
+        left: 26.2%;
     }
 
     #A8 {
-        top: 42.6%;
-        left: 35.4%;
+        top: 41.6%;
+        left: 39.9%;
     }
 
     #A9 {
-        top: 42.5%;
-        left: 48.5%;
+        top: 40.5%;
+        left: 53.5%;
     }
 
     #A10 {
-        top: 42.6%;
-        left: 61.6%;
+        top: 41.5%;
+        left: 67.2%;
     }
 
     #A11 {
-        top: 42.7%;
-        left: 74.8%;
+        top: 41.4%;
+        left: 80.9%;
     }
 
     #A12 {
-        top: 55.5%;
-        left: 9.2%;
+        top: 54.9%;
+        left: 12.5%;
     }
 
     #A13 {
-        top: 55.5%;
-        left: 22.3%;
+        top: 54.9%;
+        left: 26.2%;
     }
 
     #A14 {
-        top: 55.6%;
-        left: 35.4%;
+        top: 54.6%;
+        left: 39.9%;
     }
 
     #A15 {
-        top: 55.5%;
-        left: 48.5%;
+        top: 54.7%;
+        left: 53.5%;
     }
 
     #A16 {
-        top: 55.5%;
-        left: 61.5%;
+        top: 54.7%;
+        left: 67.2%;
     }
 
     #A17 {
-        top: 55.5%;
-        left: 74.8%;
+        top: 55.2%;
+        left: 80.9%;
     }
 
     #A18 {
-        top: 68.4%;
-        left: 9.1%;
+        top: 68%;
+        left: 12.5%;
     }
 
     #A19 {
-        top: 68%;
-        left: 22.3%;
+        top: 67.4%;
+        left: 26.2%;
     }
 
     #A20 {
-        top: 68%;
-        left: 35.5%;
+        top: 67.4%;
+        left: 39.9%;
     }
 
     #A21 {
-        top: 68.2%;
-        left: 48.5%;
+        top: 68%;
+        left: 53.5%;
     }
 
     #A22 {
-        top: 68.2%;
-        left: 61.6%;
+        top: 68%;
+        left: 67.2%;
     }
 
     #A23 {
         top: 68.2%;
-        left: 74.7%;
+        left: 80.9%;
     }
 
     #A24 {
-        top: 81%;
-        left: 9.2%;
+        top: 81.5%;
+        left: 12.5%;
     }
 
     #A25 {
-        top: 81%;
-        left: 22.5%;
+        top: 81.5%;
+        left: 26.2%;
     }
 
     #A26 {
-        top: 81%;
-        left: 35.5%;
+        top: 81.5%;
+        left: 39.9%;
     }
 
     #A27 {
         top: 81.2%;
-        left: 48.6%;
+        left: 53.5%;
     }
 
     #A28 {
         top: 81%;
-        left: 61.8%;
+        left: 67.2%;
     }
 }

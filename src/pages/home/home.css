@@ -32,7 +32,7 @@
     background-position: center;
     width: 100%;
     height: 100%;
-    padding: 0 6.8rem 4rem 6.8rem;
+    padding: 0 9rem 4rem 9rem;
 
     color: var(--dark-green);
     text-align: center;
@@ -93,7 +93,7 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.1rem;
     width: auto;
     height: auto;
     max-width: 14rem;

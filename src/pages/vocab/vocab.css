@@ -1,0 +1,10 @@
+.vocab-container {
+    height: 100%;
+    padding-top: 4.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+}

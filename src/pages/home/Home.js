@@ -101,7 +101,7 @@ const Home = () => {
                             whileHover={{ rotate: [0, 1, -1, 1, -1, 0], scale: 1.05, transition: { duration: 0.3 }}}
                             onHoverStart={() => playSound(crateSFX)}
                             style={{ backgroundImage: `url(${crate})`}}
-                            to='/'
+                            to='/alphabet'
                         >
                             <h3 className='home-crate-header'>Alphabet Page</h3>
                             <TiSortAlphabeticallyOutline className='home-crate-icon' />

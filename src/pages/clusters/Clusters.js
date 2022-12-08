@@ -71,7 +71,7 @@ const Clusters = () => {
 
     function clickedBunny() {
         setExpression(bunnyEek);
-        playSound(bunnyHit);
+        playSound(bunnyHit, 0.1);
         setTimeout(() => {
             setExpression(bunnyGlass);
         }, 350);
@@ -127,7 +127,8 @@ const Clusters = () => {
                                 <motion.div key={index} className={`cluster-btn ${type}`}
                                     style={{ backgroundImage: `url(${currBtn})` }}
                                     variants={btnChild}
-                                    onHoverStart={() => playSound(btnSFX)}
+                                    onHoverStart={() => playSound(btnSFX, 0.1)}
+                                    onClick={() => playSound(require(`../../assets/audio/ClusterAudio/${cluster.audio}.wav`), 1)}
                                 >
                                     <p>{cluster.combo}</p>
                                 </motion.div>
@@ -143,24 +144,24 @@ const Clusters = () => {
                 >
                     <motion.div className='cluster-bag' onClick={() => setType('consonant')}
                         variants={bagChild}
-                        onHoverStart={() => playSound(bagHover)}
-                        onTap={() => playSound(bagSFX)}
+                        onHoverStart={() => playSound(bagHover, 0.1)}
+                        onTap={() => playSound(bagSFX, 0.1)}
                     >
                         <h3 className='consonant-header'>Consonant Clusters</h3>
                         <img src={tomatoBag} alt='Tomato Bag' />
                     </motion.div>
                     <motion.div className="cluster-bag" onClick={() => setType('double')}
                         variants={bagChild}
-                        onHoverStart={() => playSound(bagHover)}
-                        onTap={() => playSound(bagSFX)}
+                        onHoverStart={() => playSound(bagHover, 0.1)}
+                        onTap={() => playSound(bagSFX, 0.1)}
                     >
                         <h3>Double Vowels</h3>
                         <img src={lettuceBag} alt='Lettuce Bag' />
                     </motion.div>
                     <motion.div className="cluster-bag" onClick={() => setType('triple')}
                         variants={bagChild}
-                        onHoverStart={() => playSound(bagHover)}
-                        onTap={() => playSound(bagSFX)}
+                        onHoverStart={() => playSound(bagHover, 0.1)}
+                        onTap={() => playSound(bagSFX, 0.1)}
                     >
                         <h3>Triple Vowels</h3>
                         <img src={carrotBag} alt='Carrot Bag' />

@@ -1,7 +1,6 @@
 .main-container {
     box-sizing: border-box;
     display: flex;
-    background-image: url(../../assets/images/alphabetImages/alphabet_garden_BG_shadow_v1.png);
     background-size: 116%;
     background-repeat: no-repeat;
     height: 100%;
@@ -11,7 +10,7 @@
     flex-wrap: nowrap;
 }
 
-#concept-text {
+.concept-text {
     text-align: center;
     color: var(--dark-green);
     font-weight: 400;
@@ -21,14 +20,13 @@
     top: 32%;
 }
 
-#concept-text h1, #concept-text p {
+.concept-text h1, .concept-text p {
     width: 80%;
     padding: 1% 0.1% 0% 2.5%;
     margin: 0;
 }
 
 .left-main-box {
-    box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,278 +37,112 @@
     padding-bottom: 2%;
 }
 
-#bunny_container {
-    box-sizing: border-box;
-    padding-left: 3%;
+.bunny_container {
+    padding-left: 1rem;
     display: flex;
     height: 42%;
-    flex-direction: row;
+    
+    display: flex;
+    align-items: flex-end;
+    gap: 4rem;
 }
 
-#bunny {
-    height: 100%;
+.bunny {
+    height: auto;
     width: 35%;
+    margin-left: 4rem;
 }
 
-#wood_sign {
+.start_btn {
     height: 100%;
     width: 100%;
     flex-grow: 1;
 }
 
-#start-game-container {
-    position: relative;
-    height: 100%;
-    box-sizing: border-box;
+.start-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    cursor: pointer;
 }
 
-#start-game-container p {
+.start-game-container:hover {
+    scale: 1.1;
+    margin-bottom: 1rem;
+}
+
+.start-game-container:hover > p {
+    width: 100%;
+}
+
+.start-game-container:active {
+    scale: 0.9;
+}
+
+.start-game-container p {
     position: absolute;
-    color: var(--dark-green);
-    font-weight: 400;
-    font-family: var(--font-family);
-    font-size: 4.9rem;
+    padding-bottom: 2rem;
+    width: 40%;
+    
     text-align: center;
-    vertical-align: middle;
-    padding: 0;
-    margin: 0;
-    width: 80%;
-    height: 50%;
-    left: 3rem;
-    top: 3rem;
-    transition: all 0.1s;
-    transition-timing-function: ease-in;
-    cursor: grab;
+    font-size: 4rem;
+    color: var(--dark-green);
+    user-select: none;
 }
 
-#start-game-container p:hover {
-    color: white;
-    font-size: 5.3rem;
-}
-
-#speech_container {
+.speech_container {
     position: relative;
     box-sizing: border-box;
     height: 48%;
     padding: 16% 15% 0 15%;
 }
 
-#speech_bubble {
+.speech_bubble {
     width: 100%;
     height: 100%;
-}
-
-#A0 {
-    top: 28.5%;
-    left: 12.3%;
-}
-
-#A1 {
-    top: 29%;
-    left: 26.2%;
-}
-
-#A2 {
-    top: 29%;
-    left: 39.9%;
-}
-
-#A3 {
-    top: 29.3%;
-    left: 53.8%;
-}
-
-#A4 {
-    top: 28.9%;
-    left: 67.5%;
-}
-
-#A5 {
-    top: 29.2%;
-    left: 81.2%;
-}
-
-#A6 {
-    top: 42.2%;
-    left: 12.3%;
-}
-
-#A7 {
-    top: 41.8%;
-    left: 26.2%;
-}
-
-#A8 {
-    top: 42%;
-    left: 39.9%;
-}
-
-#A9 {
-    top: 41.1%;
-    left: 53.8%;
-}
-
-#A10 {
-    top: 42%;
-    left: 67.5%;
-}
-
-#A11 {
-    top: 42%;
-    left: 81.2%;
-}
-
-#A12 {
-    top: 55%;
-    left: 12.3%;
-}
-
-#A13 {
-    top: 55%;
-    left: 26.2%;
-}
-
-#A14 {
-    top: 55%;
-    left: 39.9%;
-}
-
-#A15 {
-    top: 55%;
-    left: 53.8%;
-}
-
-#A16 {
-    top: 54.8%;
-    left: 67.5%;
-}
-
-#A17 {
-    top: 55%;
-    left: 81.2%;
-}
-
-#A18 {
-    top: 67.5%;
-    left: 12.3%;
-}
-
-#A19 {
-    top: 67%;
-    left: 26.2%;
-}
-
-#A20 {
-    top: 67%;
-    left: 39.9%;
-}
-
-#A21 {
-    top: 67.7%;
-    left: 53.8%;
-}
-
-#A22 {
-    top: 67.7%;
-    left: 67.5%;
-}
-
-#A23 {
-    top: 67.7%;
-    left: 81.2%;
-}
-
-#A24 {
-    top: 80.5%;
-    left: 12.3%;
-}
-
-#A25 {
-    top: 80.5%;
-    left: 26.2%;
-}
-
-#A26 {
-    top: 80.5%;
-    left: 39.9%;
-}
-
-#A27 {
-    top: 80.5%;
-    left: 53.8%;
-}
-
-#A28 {
-    top: 80%;
-    left: 67.5%;
 }
 
 .right-main-box {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column-reverse;
-    color: var(--dark-green);
-    position: relative;
+    display: grid;
+    grid-template-rows: repeat(5, 6.8rem);
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 14rem 5.6rem 0 5.6rem;
+
     width: 60%;
     height: 100%;
+    color: var(--dark-green);
+
+}
+
+.letter-container {
+    position: relative;
+    background-size: cover;
+    height: 77%;
+    width: 60%;
+
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.letter-container:hover {
+    scale: 1.1;
+}
+
+.letter-container:active {
+    scale: 0.9;
 }
 
 .letter {
-    position: absolute;
-    opacity: 1;
-    text-align: center;
-    cursor: grab;
-    height: 4.7rem;
-    width: 4.7rem;
-    font-size: 3.5rem;
-    transition: all 0.1s;
-    transition-timing-function: ease-in;
-}
-
-.letter:hover {
-    opacity: 1;
-    transform: translateY(-0.1rem);
-    color: rgba(53, 24, 109, 0.818);
     font-size: 3.9rem;
-}
-
-.bg_container {
-    position: relative;
+    z-index: 10;
+    bottom: -3.3rem;
+    position: absolute;
+    text-align: center;
     width: 100%;
-    height: 73%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: flex-start;
-    flex-direction: column;
-    row-gap: 0.02rem;
-    transition: all 0.1s;
-    transition-timing-function: ease-in;
-}
-
-.bg_row {
-    display: flex;
-    flex-shrink: 1;
-    column-gap: 0.25rem;
-    padding-left: 0.5rem;
-}
-
-.right-main-box img {
-    height: 5.6rem;
-    width: 5.6rem;
-    margin: 0.55rem 1.48rem;
-    opacity: 1;
-}
-
-/* This is for the last bg box */
-.bg_container span {
-    height: 5.6rem;
-    width: 5.6rem;
-    margin: 0.55rem 1.4rem;
-}
-
-.bg_img:hover {
-    transform: translateY(-0.2rem);
 }
 
 @media (-webkit-device-pixel-ratio: 1.25) {
@@ -318,7 +150,7 @@
         zoom: 0.788;
     }
 
-    #start-game-container p {
+    .start-game-container p {
         top: 2.5rem;
     }
 
@@ -330,150 +162,5 @@
     .right-main-box img {
         margin-right: 1.48rem;
         margin-left: 1.41rem;
-    }
-
-    #A0 {
-        top: 27.6%;
-        left: 12.5%;
-    }
-
-    #A1 {
-        top: 27.9%;
-        left: 26.2%;
-    }
-
-    #A2 {
-        top: 27.9%;
-        left: 39.9%;
-    }
-
-    #A3 {
-        top: 27.9%;
-        left: 53.5%;
-    }
-
-    #A4 {
-        top: 27.9%;
-        left: 67.2%;
-    }
-
-    #A5 {
-        top: 27.9%;
-        left: 80.9%;
-    }
-
-    #A6 {
-        top: 41.5%;
-        left: 12.5%;
-    }
-
-    #A7 {
-        top: 41.2%;
-        left: 26.2%;
-    }
-
-    #A8 {
-        top: 41.6%;
-        left: 39.9%;
-    }
-
-    #A9 {
-        top: 40.5%;
-        left: 53.5%;
-    }
-
-    #A10 {
-        top: 41.5%;
-        left: 67.2%;
-    }
-
-    #A11 {
-        top: 41.4%;
-        left: 80.9%;
-    }
-
-    #A12 {
-        top: 54.9%;
-        left: 12.5%;
-    }
-
-    #A13 {
-        top: 54.9%;
-        left: 26.2%;
-    }
-
-    #A14 {
-        top: 54.6%;
-        left: 39.9%;
-    }
-
-    #A15 {
-        top: 54.7%;
-        left: 53.5%;
-    }
-
-    #A16 {
-        top: 54.7%;
-        left: 67.2%;
-    }
-
-    #A17 {
-        top: 55.2%;
-        left: 80.9%;
-    }
-
-    #A18 {
-        top: 68%;
-        left: 12.5%;
-    }
-
-    #A19 {
-        top: 67.4%;
-        left: 26.2%;
-    }
-
-    #A20 {
-        top: 67.4%;
-        left: 39.9%;
-    }
-
-    #A21 {
-        top: 68%;
-        left: 53.5%;
-    }
-
-    #A22 {
-        top: 68%;
-        left: 67.2%;
-    }
-
-    #A23 {
-        top: 68.2%;
-        left: 80.9%;
-    }
-
-    #A24 {
-        top: 81.5%;
-        left: 12.5%;
-    }
-
-    #A25 {
-        top: 81.5%;
-        left: 26.2%;
-    }
-
-    #A26 {
-        top: 81.5%;
-        left: 39.9%;
-    }
-
-    #A27 {
-        top: 81.2%;
-        left: 53.5%;
-    }
-
-    #A28 {
-        top: 81%;
-        left: 67.2%;
     }
 }

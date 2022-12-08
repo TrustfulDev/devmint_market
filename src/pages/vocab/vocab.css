@@ -19,6 +19,16 @@
     box-shadow: inset 0 7px 9px -10px var(--light-green);
 }
 
+.audioCol {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.playIcon {
+    cursor: pointer;
+}
+
 .vocab-lists h1 {
     display: flex;
     justify-content: center;

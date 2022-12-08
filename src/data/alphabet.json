@@ -1,175 +1,175 @@
 [
 	{
 		"letter": "a",
-		"audio": "",
+		"audio": "a",
 		"vietEx": "xa",
 		"engEx": "far"
 	},
 	{
 		"letter": "ă",
-		"audio": "",
+		"audio": "aSmile",
 		"vietEx": "năm",
 		"engEx": "five/year"
 	},
 	{
 		"letter": "â",
-		"audio": "",
+		"audio": "aHat",
 		"vietEx": "tâm",
 		"engEx": "heart"
 	},
 	{
 		"letter": "b",
-		"audio": "",
+		"audio": "b",
 		"vietEx": "ba",
 		"engEx": "dad"
 	},
 	{
 		"letter": "c",
-		"audio": "",
+		"audio": "c",
 		"vietEx": "con",
 		"engEx": "child"
 	},
 	{
 		"letter": "d",
-		"audio": "",
+		"audio": "d",
 		"vietEx": "da",
 		"engEx": "skin"
 	},
 	{
 		"letter": "đ",
-		"audio": "",
+		"audio": "dLine",
 		"vietEx": "đi",
 		"engEx": "go"
 	},
 	{
 		"letter": "e",
-		"audio": "",
+		"audio": "e",
 		"vietEx": "xe",
 		"engEx": "car"
 	},
 	{
 		"letter": "ê",
-		"audio": "",
+		"audio": "eHat",
 		"vietEx": "lê",
 		"engEx": "pear"
 	},
 	{
 		"letter": "g",
-		"audio": "",
+		"audio": "g",
 		"vietEx": "gà",
 		"engEx": "chicken"
 	},
 	{
 		"letter": "h",
-		"audio": "",
+		"audio": "h",
 		"vietEx": "hai",
 		"engEx": "two"
 	},
 	{
 		"letter": "i",
-		"audio": "",
+		"audio": "i",
 		"vietEx": "chim",
 		"engEx": "bird"
 	},
 	{
 		"letter": "k",
-		"audio": "",
+		"audio": "k",
 		"vietEx": "kỹ",
 		"engEx": "carefully"
 	},
 	{
 		"letter": "l",
-		"audio": "",
+		"audio": "l",
 		"vietEx": "làm",
 		"engEx": "do"
 	},	
 	{
 		"letter": "m",
-		"audio": "",
+		"audio": "m",
 		"vietEx": "mẹ",
 		"engEx": "mom"
 	},
 	{
 		"letter": "n",
-		"audio": "",
+		"audio": "n",
 		"vietEx": "no",
 		"engEx": "full"
 	},	
 	{
 		"letter": "o",
-		"audio": "",
+		"audio": "o",
 		"vietEx": "lo",
 		"engEx": "worry"
 	},
 	{
 		"letter": "ô",
-		"audio": "",
+		"audio": "oHat",
 		"vietEx": "hôn",
 		"engEx": "kiss"
 	},	
 	{
 		"letter": "ơ",
-		"audio": "",
+		"audio": "oHook",
 		"vietEx": "ớt",
 		"engEx": "pepper"
 	},
 	{
 		"letter": "p",
-		"audio": "",
+		"audio": "p",
 		"vietEx": "tập",
 		"engEx": "practice"
 	},	
 	{
 		"letter": "q",
-		"audio": "",
+		"audio": "q",
 		"vietEx": "quà",
 		"engEx": "gift"
 	},
 	{
 		"letter": "r",
-		"audio": "",
+		"audio": "r",
 		"vietEx": "rửa",
 		"engEx": "wash"
 	},	
 	{
 		"letter": "s",
-		"audio": "",
+		"audio": "s",
 		"vietEx": "sống",
 		"engEx": "live"
 	},
 	{
 		"letter": "t",
-		"audio": "",
+		"audio": "t",
 		"vietEx": "tim",
 		"engEx": "heart"
 	},	
 	{
 		"letter": "u",
-		"audio": "",
+		"audio": "u",
 		"vietEx": "ru",
 		"engEx": "sing a lullaby"
 	},
 	{
 		"letter": "ư",
-		"audio": "",
+		"audio": "uHook",
 		"vietEx": "thư",
 		"engEx": "letter (mail)"
 	},	
 	{
 		"letter": "v",
-		"audio": "",
+		"audio": "v",
 		"vietEx": "vàng",
 		"engEx": "yellow/gold"
 	},
 	{
 		"letter": "x",
-		"audio": "",
+		"audio": "x",
 		"vietEx": "xe",
 		"engEx": "car"
 	},	
 	{
 		"letter": "y",
-		"audio": "",
+		"audio": "y",
 		"vietEx": "kỳ",
 		"engEx": "strange"
 	}

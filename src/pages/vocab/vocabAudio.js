@@ -7,7 +7,7 @@ export function playSound(src) {
     const sound = new Howl({
         src,
         html5: true,
-        volume: 0.1,
+        volume: 1,
     });
     sound.play();
 }

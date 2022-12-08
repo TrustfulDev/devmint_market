@@ -3,11 +3,11 @@ import { Howl } from 'howler';
 // Load Audio assets
 export { default as bgm } from '../../assets/audio/SugarCookie.mp3';
 
-export function playSound(src) {
+export function playSound(src, vol) {
     const sound = new Howl({
         src,
         html5: true,
-        volume: 0.1,
+        volume: vol,
     });
     sound.play();
 }

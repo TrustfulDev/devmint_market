@@ -1,175 +1,175 @@
 [
 	{
 		"combo": "ch",
-		"audio": "",
+		"audio": "ch",
 		"vietEx": "che",
 		"engEx": "cover",
 		"type": "consonant"
 	},
 	{
 		"combo": "gh",
-		"audio": "",
+		"audio": "gh",
 		"vietEx": "ghe",
 		"engEx": "boat",
 		"type": "consonant"
 	},
 	{
 		"combo": "gi",
-		"audio": "",
+		"audio": "gi",
 		"vietEx": "giàu",
 		"engEx": "rich/wealthy",
 		"type": "consonant"
 	},
 	{
 		"combo": "kh",
-		"audio": "",
+		"audio": "kh",
 		"vietEx": "khi",
 		"engEx": "when",
 		"type": "consonant"
 	},
 	{
 		"combo": "ng",
-		"audio": "",
+		"audio": "ng",
 		"vietEx": "sống",
 		"engEx": "live",
 		"type": "consonant"
 	},
 	{
 		"combo": "ngh",
-		"audio": "",
+		"audio": "ngh",
 		"vietEx": "nghèo",
 		"engEx": "poor",
 		"type": "consonant"
 	},
 	{
 		"combo": "nh",
-		"audio": "",
+		"audio": "nh",
 		"vietEx": "nhình",
 		"engEx": "look",
 		"type": "consonant"
 	},
 	{
 		"combo": "ph",
-		"audio": "",
+		"audio": "ph",
 		"vietEx": "phải",
 		"engEx": "right",
 		"type": "consonant"
 	},
 	{
 		"combo": "qu",
-		"audio": "",
+		"audio": "qu",
 		"vietEx": "quà",
 		"engEx": "gift",
 		"type": "consonant"
 	},
 	{
 		"combo": "th",
-		"audio": "",
+		"audio": "th",
 		"vietEx": "tháo",
 		"engEx": "remove/unfasten",
 		"type": "consonant"
 	},
 	{
 		"combo": "tr",
-		"audio": "",
+		"audio": "tr",
 		"vietEx": "trả",
 		"engEx": "pay/return",
 		"type": "consonant"
 	},
 	{
 		"combo": "ai",
-		"audio": "",
+		"audio": "ai",
 		"vietEx": "mai",
 		"engEx": "tomorrow",
 		"type": "double"
 	},
 	{
 		"combo": "ao",
-		"audio": "",
+		"audio": "ao",
 		"vietEx": "cao",
 		"engEx": "tall",
 		"type": "double"
 	},
 	{
 		"combo": "au",
-		"audio": "",
+		"audio": "au",
 		"vietEx": "mau",
 		"engEx": "fast",
 		"type": "double"
 	},
 	{
 		"combo": "âu",
-		"audio": "",
+		"audio": "auHat",
 		"vietEx": "đâu",
 		"engEx": "where",
 		"type": "double"
 	},
 	{
 		"combo": "ay",
-		"audio": "",
+		"audio": "ay",
 		"vietEx": "bay",
 		"engEx": "fly",
 		"type": "double"
 	},
 	{
 		"combo": "ây",
-		"audio": "",
+		"audio": "ayHat",
 		"vietEx": "mây",
 		"engEx": "cloud",
 		"type": "double"
 	},
 	{
 		"combo": "eo",
-		"audio": "",
+		"audio": "eo",
 		"vietEx": "kéo",
 		"engEx": "pull",
 		"type": "double"
 	},
 	{
 		"combo": "êu",
-		"audio": "",
+		"audio": "euHat",
 		"vietEx": "thêu",
 		"engEx": "embroider",
 		"type": "double"
 	},
 	{
 		"combo": "ia",
-		"audio": "",
+		"audio": "ia",
 		"vietEx": "nĩa",
 		"engEx": "fork",
 		"type": "double"
 	},
 	{
 		"combo": "iê",
-		"audio": "",
+		"audio": "ieHat",
 		"vietEx": "tiệm",
 		"engEx": "store",
 		"type": "double"
 	},
 	{
 		"combo": "iu",
-		"audio": "",
+		"audio": "iu",
 		"vietEx": "thiu",
 		"engEx": "spoiled (food)",
 		"type": "double"
 	},
 	{
 		"combo": "yê",
-		"audio": "",
+		"audio": "ye",
 		"vietEx": "yên",
 		"engEx": "calm",
 		"type": "double"
 	},
 	{
 		"combo": "oa",
-		"audio": "",
+		"audio": "oa",
 		"vietEx": "hoa",
 		"engEx": "flower",
 		"type": "double"
 	},
 	{
 		"combo": "oă",
-		"audio": "",
+		"audio": "oaSmile",
 		"vietEx": "hoặc",
 		"engEx": "or",
 		"type": "double"
@@ -177,205 +177,205 @@
 	},
 	{
 		"combo": "oi",
-		"audio": "",
+		"audio": "oi",
 		"vietEx": "nói",
 		"engEx": "speak",
 		"type": "double"
 	},
 	{
 		"combo": "ôi",
-		"audio": "",
+		"audio": "oiHat",
 		"vietEx": "tôi",
 		"engEx": "I (formal)",
 		"type": "double"
 	},
 	{
 		"combo": "ơi",
-		"audio": "",
+		"audio": "oiHook",
 		"vietEx": "bơi",
 		"engEx": "swim",
 		"type": "double"
 	},
 	{
 		"combo": "ua",
-		"audio": "",
+		"audio": "ua",
 		"vietEx": "mua",
 		"engEx": "to buy",
 		"type": "double"
 	},
 	{
 		"combo": "uâ",
-		"audio": "",
+		"audio": "uaHat",
 		"vietEx": "xuân",
 		"engEx": "spring (season)",
 		"type": "double"
 	},
 	{
 		"combo": "uê",
-		"audio": "",
+		"audio": "ue",
 		"vietEx": "thuê",
 		"engEx": "rent",
 		"type": "double"
 	},
 	{
 		"combo": "ui",
-		"audio": "",
+		"audio": "ui",
 		"vietEx": "núi",
 		"engEx": "mountain",
 		"type": "double"
 	},
 	{
 		"combo": "uơ",
-		"audio": "",
+		"audio": "uoHookO",
 		"vietEx": "thuở",
 		"engEx": "time",
 		"type": "double"
 	},
 	{
 		"combo": "ưa",
-		"audio": "",
+		"audio": "uaHook",
 		"vietEx": "mưa",
 		"engEx": "rain",
 		"type": "double"
 	},
 	{
 		"combo": "ưi",
-		"audio": "",
+		"audio": "uiHook",
 		"vietEx": "ngửi",
 		"engEx": "to smell",
 		"type": "double"
 	},
 	{
 		"combo": "ươ",
-		"audio": "",
+		"audio": "uoHookU",
 		"vietEx": "nước",
 		"engEx": "water",
 		"type": "double"
 	},
 	{
 		"combo": "ưu",
-		"audio": "",
+		"audio": "uuHook",
 		"vietEx": "cứu",
 		"engEx": "save/rescue",
 		"type": "double"
 	},
 	{
 		"combo": "iêu",
-		"audio": "",
+		"audio": "ieuHat",
 		"vietEx": "tiêu",
 		"engEx": "pepper",
 		"type": "triple"
 	},
 	{
 		"combo": "oai",
-		"audio": "",
+		"audio": "oai",
 		"vietEx": "xoài",
 		"engEx": "mango",
 		"type": "triple"
 	},
 	{
 		"combo": "oay",
-		"audio": "",
+		"audio": "oay",
 		"vietEx": "xoay",
 		"engEx": "to turn",
 		"type": "triple"
 	},
 	{
 		"combo": "oeo",
-		"audio": "",
+		"audio": "oeo",
 		"vietEx": "ngoằn ngoèo",
 		"engEx": "meandering",
 		"type": "triple"
 	},
 	{
 		"combo": "uai",
-		"audio": "",
+		"audio": "uai",
 		"vietEx": "quai",
 		"engEx": "handle",
 		"type": "triple"
 	},
 	{
 		"combo": "uao",
-		"audio": "",
+		"audio": "uao",
 		"vietEx": "quào",
 		"engEx": "to scratch",
 		"type": "triple"
 	},
 	{
 		"combo": "uau",
-		"audio": "",
+		"audio": "uau",
 		"vietEx": "quạu",
 		"engEx": "grumpy",
 		"type": "triple"
 	},
 	{
 		"combo": "uay",
-		"audio": "",
+		"audio": "uay",
 		"vietEx": "quay",
 		"engEx": "to turn",
 		"type": "triple"
 	},
 	{
 		"combo": "uây",
-		"audio": "",
+		"audio": "uayHat",
 		"vietEx": "quây quần",
 		"engEx": "to gather around",
 		"type": "triple"
 	},
 	{
 		"combo": "ueo",
-		"audio": "",
+		"audio": "ueo",
 		"vietEx": "quẹo",
 		"engEx": "to turn",
 		"type": "triple"
 	},
 	{
 		"combo": "uôi",
-		"audio": "",
+		"audio": "uoiHat",
 		"vietEx": "muối",
 		"engEx": "salt",
 		"type": "triple"
 	},
 	{
 		"combo": "uya",
-		"audio": "",
+		"audio": "uya",
 		"vietEx": "khuya",
 		"engEx": "late night",
 		"type": "triple"
 	},
 	{
 		"combo": "uyê",
-		"audio": "",
+		"audio": "uyeHat",
 		"vietEx": "tuyết",
 		"engEx": "snow",
 		"type": "triple"
 	},
 	{
 		"combo": "uyu",
-		"audio": "",
+		"audio": "uyu",
 		"vietEx": "khuỵu",
 		"engEx": "to collapse",
 		"type": "triple"
 	},
 	{
 		"combo": "ươi",
-		"audio": "",
+		"audio": "uoiHook",
 		"vietEx": "cười",
 		"engEx": "to laugh",
 		"type": "triple"
 	},
 	{
 		"combo": "ươu",
-		"audio": "",
+		"audio": "uouHook",
 		"vietEx": "hươu",
 		"engEx": "deer",
 		"type": "triple"
 	},
 	{
 		"combo": "yêu",
-		"audio": "",
+		"audio": "yeuHat",
 		"vietEx": "yêu",
-		"engEx": "",
-		"type": "love"
+		"engEx": "love",
+		"type": "triple"
 	}
 ]

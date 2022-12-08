@@ -15,8 +15,7 @@ export { default as welcomeSign } from '../../assets/images/alphabetImages/welco
 export { default as bunny } from '../../assets/images/alphabetImages/bunnyWave.png';
 export { default as alphabet_bg } from '../../assets/images/alphabetImages/alphabet_garden_box_noshadow.jpg';
 export { default as speech_bubble } from '../../assets/images/alphabetImages/speech_bubble.png';
-export { default as wood_sign } from '../../assets/images/alphabetImages/wood_sign.png';
-export { default as wood_sign_letter } from '../../assets/images/alphabetImages/wood_sign_letter.png';
+export { default as alphabetGame } from '../../assets/images/alphabetImages/alphabetGame.png';
 export { default as garden_bg_shadow } from '../../assets/images/alphabetImages/alphabet_garden_BG_shadow_v1.png';
 
 // Cluster Page Images

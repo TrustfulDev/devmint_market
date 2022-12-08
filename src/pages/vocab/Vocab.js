@@ -3,11 +3,14 @@ import './vocab.css';
 
 // Import Audio
 import ReactHowler from 'react-howler';
-import { bgm } from './vocabAudio';
+import { playSound, bgm } from './vocabAudio';
 
 // Import Images
 import { vocabBg } from '../../assets/images';
 import { motion } from 'framer-motion';
+
+// Import icon
+import { AiFillPlayCircle } from 'react-icons/ai';
 
 // Import json file
 import alphabetData from '../../data/alphabet.json';
@@ -38,7 +41,13 @@ const Vocab = () => {
                     {alphabetData.map((alphabet, index) => {
                         return(
                             <tr key={index}>
-                                <th>{alphabet.letter}</th>
+                                <th className='audioCol'>
+                                    {alphabet.letter} 
+                                    <AiFillPlayCircle 
+                                        className='playIcon'
+                                        onClick={() => playSound(require(`../../assets/audio/AlphabetAudio/${alphabet.audio}.wav`))}
+                                    />
+                                </th>
                                 <th>{alphabet.vietEx}</th>
                                 <th>{alphabet.engEx}</th>
                             </tr>
@@ -56,7 +65,13 @@ const Vocab = () => {
                     {clusterData.map((cluster, index) => {
                         return(
                             <tr key={index}>
-                                <th>{cluster.combo}</th>
+                                <th className='audioCol'>
+                                    {cluster.combo} 
+                                    <AiFillPlayCircle 
+                                        className='playIcon'
+                                        onClick={() => playSound(require(`../../assets/audio/ClusterAudio/${cluster.audio}.wav`))}
+                                    />
+                                </th>
                                 <th>{cluster.vietEx}</th>
                                 <th>{cluster.engEx}</th>
                                 <th>{cluster.type}</th>
@@ -76,10 +91,16 @@ const Vocab = () => {
                     {toneData.map((tone, index) => {
                         return(
                             <tr key={index}>
-                                <th>{tone.tonesymbolname}</th>
+                                <th>{tone.tonesymbolname} </th>
                                 <th>{tone.symbol}</th>
                                 <th>{tone.explanation}</th>
-                                <th>{tone.vietEx}</th>
+                                <th className='audioCol'>
+                                    {tone.vietEx}
+                                    <AiFillPlayCircle 
+                                        className='playIcon'
+                                        onClick={() => playSound(require(`../../assets/audio/ToneAudio/${tone.audio}.wav`))}
+                                    />
+                                </th>
                                 <th>{tone.engEx}</th>
                             </tr>
                         )

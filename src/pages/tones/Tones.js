@@ -1,5 +1,6 @@
 // Default imports
 import './tones.css';
+import { useState } from 'react';
 
 // Import Audio
 import ReactHowler from 'react-howler';
@@ -8,6 +9,9 @@ import { playSound, bgm } from './toneAudio';
 // Import Images
 import { bunnyGlass, speechBubble, toneBg, sacSymbol, huyenSymbol, hoiSymbol, ngaSymbol, nangSymbol, noSymbol } from '../../assets/images';
 import { motion } from 'framer-motion';
+
+// Import json file
+import toneData from '../../data/tones.json';
 
 // Animation Variants for the buttons
 const btnContainer = {
@@ -34,6 +38,14 @@ const btnChild = {
 };
 
 const Tones = () => {
+    console.log(toneData[0].tonesymbolname);
+    const [tone, setTone] = useState(toneData[0])
+
+    function btnClicked(newTone) {
+        setTone(newTone);
+        playSound(require(`../../assets/audio/ToneAudio/${newTone.audio}.wav`), 1);
+    }
+
     return(
         <motion.div className='tone-container'
             initial={{ opacity: 0 }}
@@ -73,9 +85,9 @@ const Tones = () => {
                 animate={{ opacity: 1, scale: [0.8, 1.1, 1] }}
                 transition={{ delay: 1, duration: 0.3 }}
             >
-                <h3>Oh yea baby</h3>
-                <h1>la</h1>
-                <p>A description here for the word above! Testing a super long description to make sure that everything will fit inside this jar! LALALALALALALLALA.</p>
+                <h3>{ tone.symbol }</h3>
+                <h1>{ tone.vietEx }</h1>
+                <p>{ tone.explanation }</p>
             </motion.div>
 
             <div className='tone-right'>
@@ -85,12 +97,24 @@ const Tones = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    <motion.img className='symbolBtn' src={sacSymbol} alt='Sac Symbol' variants={btnChild} />
-                    <motion.img className='symbolBtn' src={huyenSymbol} alt='Huyen Symbol' variants={btnChild} />
-                    <motion.img className='symbolBtn' src={hoiSymbol} alt='Hoi Symbol' variants={btnChild} />
-                    <motion.img className='symbolBtn' src={ngaSymbol} alt='Nga Symbol' variants={btnChild} />
-                    <motion.img className='symbolBtn' src={nangSymbol} alt='Nang Symbol' variants={btnChild} />
-                    <motion.img className='symbolBtn' src={noSymbol} alt='No Symbol' variants={btnChild} />
+                    <motion.img className='symbolBtn' src={sacSymbol} alt='Sac Symbol' variants={btnChild} 
+                        onClick={ () => btnClicked(toneData[1]) }
+                    />
+                    <motion.img className='symbolBtn' src={huyenSymbol} alt='Huyen Symbol' variants={btnChild} 
+                        onClick={ () => btnClicked(toneData[2]) }
+                    />
+                    <motion.img className='symbolBtn' src={hoiSymbol} alt='Hoi Symbol' variants={btnChild} 
+                        onClick={ () => btnClicked(toneData[3]) }
+                    />
+                    <motion.img className='symbolBtn' src={ngaSymbol} alt='Nga Symbol' variants={btnChild} 
+                        onClick={ () => btnClicked(toneData[4]) }
+                    />
+                    <motion.img className='symbolBtn' src={nangSymbol} alt='Nang Symbol' variants={btnChild} 
+                        onClick={ () => btnClicked(toneData[5]) }
+                    />
+                    <motion.img className='symbolBtn' src={noSymbol} alt='No Symbol' variants={btnChild} 
+                        onClick={ () => btnClicked(toneData[0]) }
+                    />
                 </motion.div>
             </div>
         </motion.div>

@@ -22,7 +22,7 @@ const Alphabet = () => {
         >
             <ReactHowler
                 src={ bgm }
-                volume={0.02}
+                volume={0.001}
                 playing={true}
                 loop={true}
             />

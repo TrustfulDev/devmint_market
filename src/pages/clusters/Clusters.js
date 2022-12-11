@@ -85,7 +85,7 @@ const Clusters = () => {
         >
             <ReactHowler
                 src={bgm}
-                volume={0.001}
+                volume={0.02}
                 playing={true}
                 loop={true}
             />

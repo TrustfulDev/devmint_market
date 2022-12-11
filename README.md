@@ -1,5 +1,11 @@
 # DevMint Market
 An ENGR 10 Project. Click on the YouTube demonstration below! (The thumbnail)
+</br>
+- Font: Itim
+- [Progress I Presentation](https://docs.google.com/presentation/d/1qSJsIGwTeU_YPwr5cqRijnBoBqvGTzQ7Qc2fDEVhKvE/edit#slide=id.p)
+- [Progress II Presentation](https://docs.google.com/presentation/d/1oP4NIulaBegiVzlAIvGx4inaRouEsfuIOgoOu2V5RCo/edit?usp=sharing)
+- [Final Presentation](https://docs.google.com/presentation/d/16xkR7SEZiC8Xf31vfMLHhvwyUAwBFScDkc2OoJX_QNw/edit?usp=sharing)
+</br>
 [![YoutubeDemonstration](https://img.youtube.com/vi/Pkrg4p-1nW8/0.jpg)](https://www.youtube.com/watch?v=Pkrg4p-1nW8) </br>
 
 ## The Website

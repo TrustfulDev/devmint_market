@@ -3,7 +3,7 @@ import './alphabet.css';
 
 // Import Audio
 import ReactHowler from 'react-howler';
-import { bgm, playSound } from './alphabetAudio';
+import { bgm, btnSFX, playSound } from './alphabetAudio';
 
 // Import Images
 import { garden_bg_shadow, bunny, alphabet_bg, speech_bubble, alphabetGame } from '../../assets/images';
@@ -42,14 +42,14 @@ const Alphabet = () => {
                         transition={{ delay: 1.1 }}
                     />
 
-                    <motion.div className="start-game-container"
+                    {/* <motion.div className="start-game-container"
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
                         transition={{ delay: 1.1 }}
                     >
                         <img className="start_btn" src={alphabetGame} alt="Start Game" />
                         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2 }}>START GAME</motion.p>
-                    </motion.div>
+                    </motion.div> */}
                 </div>
             </div>
 
@@ -62,7 +62,8 @@ const Alphabet = () => {
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
                             transition={{ delay: 0.55 }}
-                            onClick={ () => playSound(require(`../../assets/audio/AlphabetAudio/${currLetter.audio}.wav`)) }
+                            onHoverStart={() => playSound(btnSFX, 0.08)}
+                            onClick={ () => playSound(require(`../../assets/audio/AlphabetAudio/${currLetter.audio}.wav`), 1) }
                         >
                             <p className='letter'>{currLetter.letter}</p>
                         </motion.div>

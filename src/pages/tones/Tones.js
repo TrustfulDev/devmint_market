@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 // Import Audio
 import ReactHowler from 'react-howler';
-import { playSound, bgm } from './toneAudio';
+import { playSound, bgm, btnSFX } from './toneAudio';
 
 // Import Images
 import { bunnyGlass, speechBubble, toneBg, sacSymbol, huyenSymbol, hoiSymbol, ngaSymbol, nangSymbol, noSymbol } from '../../assets/images';
@@ -99,21 +99,27 @@ const Tones = () => {
                 >
                     <motion.img className='symbolBtn' src={sacSymbol} alt='Sac Symbol' variants={btnChild} 
                         onClick={ () => btnClicked(toneData[1]) }
+                        onHoverStart={() => playSound(btnSFX, 0.08)}
                     />
                     <motion.img className='symbolBtn' src={huyenSymbol} alt='Huyen Symbol' variants={btnChild} 
                         onClick={ () => btnClicked(toneData[2]) }
+                        onHoverStart={() => playSound(btnSFX, 0.08)}
                     />
                     <motion.img className='symbolBtn' src={hoiSymbol} alt='Hoi Symbol' variants={btnChild} 
                         onClick={ () => btnClicked(toneData[3]) }
+                        onHoverStart={() => playSound(btnSFX, 0.08)}
                     />
                     <motion.img className='symbolBtn' src={ngaSymbol} alt='Nga Symbol' variants={btnChild} 
                         onClick={ () => btnClicked(toneData[4]) }
+                        onHoverStart={() => playSound(btnSFX, 0.08)}
                     />
                     <motion.img className='symbolBtn' src={nangSymbol} alt='Nang Symbol' variants={btnChild} 
                         onClick={ () => btnClicked(toneData[5]) }
+                        onHoverStart={() => playSound(btnSFX, 0.08)}
                     />
                     <motion.img className='symbolBtn' src={noSymbol} alt='No Symbol' variants={btnChild} 
                         onClick={ () => btnClicked(toneData[0]) }
+                        onHoverStart={() => playSound(btnSFX, 0.08)}
                     />
                 </motion.div>
             </div>

@@ -26,7 +26,7 @@ const Vocab = () => {
         >
             <ReactHowler 
                 src={bgm}
-                volume={0.001}
+                volume={0.05}
                 playing={true}
                 loop={true}
             />

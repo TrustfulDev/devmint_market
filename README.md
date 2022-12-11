@@ -1,7 +1,7 @@
 # DevMint Market
-An ENGR 10 Project
+An ENGR 10 Project. Click on the YouTube demonstration below! (The thumbnail)
 
-[![YoutubeDemonstration](https://img.youtube.com/vi/Pkrg4p-1nW8/0.jpg)](https://www.youtube.com/embed/Pkrg4p-1nW8) </br>
+[![YoutubeDemonstration](https://img.youtube.com/vi/Pkrg4p-1nW8/0.jpg)](https://www.youtube.com/watch?v=Pkrg4p-1nW8) </br>
 
 ## Learning Objectives
 - CSS Skills

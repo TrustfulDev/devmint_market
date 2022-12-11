@@ -1,7 +1,11 @@
 # DevMint Market
 An ENGR 10 Project. Click on the YouTube demonstration below! (The thumbnail)
-
 [![YoutubeDemonstration](https://img.youtube.com/vi/Pkrg4p-1nW8/0.jpg)](https://www.youtube.com/watch?v=Pkrg4p-1nW8) </br>
+
+## The Website
+- IMPORTANT NOTE: The website is not responsive. It'll only look good on 1920x1080 resolutions with a 100% zoom scale in windows (very important).
+- Hosted on Fleek: [Link to website](https://devmintmarket.on.fleek.co/)
+- If you want to run the website through the code, you must have npm (Node.js). Navigate to the main directory of the project and run the command "npm start"
 
 ## Learning Objectives
 - CSS Skills
